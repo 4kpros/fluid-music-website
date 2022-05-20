@@ -1,0 +1,11 @@
+{
+    "short_name": "Abouar Prosper, developpeur web et mobile",
+    "name": "Abouar Prosper",
+    "description": "Weather forecast information",
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#141516",
+    "theme_color": "#141516",
+    "display": "standalone",
+    "orientation": "portrait-primary"
+  }
