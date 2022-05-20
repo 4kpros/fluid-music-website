@@ -23,7 +23,7 @@ const Navbar = () => {
                 <div className='w-full flex justify-between items-center py-4'>
                     <Link href={`/`}>
                         <a className="flex items-center">
-                            <Image width={60} height={50} objectFit="contain" placeholder="blur" blurDataURL="/fluid-music-icon-white.svg" src="/fluid-music-icon-white.svg" alt="site logo"/>
+                            <Image width={60} height={50} objectFit="contain" placeholder="blur" blurDataURL="/images/fluid-music-icon-white.svg" src="/fluid-music-icon-white.svg" alt="site logo"/>
                             <h1 className="text-xl font-bold mx-4">FLUID MUSIC</h1>
                         </a>
                     </Link>
