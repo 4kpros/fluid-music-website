@@ -17,6 +17,32 @@ const index = () => {
                             <h1 className="text-5xl font-bold">
                                 Parametres de confidentialite
                             </h1>
+                            <div className="">
+                                <h3 className="text-2xl mt-8">
+                                    Les donnee collectes
+                                </h3>
+                                <p className="mt-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum tellus nec blandit porttitor. Nulla faucibus nulla turpis, sed aliquet diam sollicitudin at. Suspendisse nec mauris odio. Sed pulvinar neque sit amet velit euismod, eget mollis diam imperdiet. In hac habitasse platea dictumst. Praesent rhoncus neque sit amet elit feugiat, vel convallis orci laoreet. Curabitur tempor elementum nulla ut tempor.
+                                </p>
+                                <h3 className="text-2xl mt-8">
+                                    Les donnee partages
+                                </h3>
+                                <p className="mt-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum tellus nec blandit porttitor. Nulla faucibus nulla turpis, sed aliquet diam sollicitudin at. Suspendisse nec mauris odio. Sed pulvinar neque sit amet velit euismod, eget mollis diam imperdiet. In hac habitasse platea dictumst. Praesent rhoncus neque sit amet elit feugiat, vel convallis orci laoreet. Curabitur tempor elementum nulla ut tempor.
+                                </p>
+                                <h3 className="text-2xl mt-8">
+                                    Log Data
+                                </h3>
+                                <p className="mt-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum tellus nec blandit porttitor. Nulla faucibus nulla turpis, sed aliquet diam sollicitudin at. Suspendisse nec mauris odio. Sed pulvinar neque sit amet velit euismod, eget mollis diam imperdiet. In hac habitasse platea dictumst. Praesent rhoncus neque sit amet elit feugiat, vel convallis orci laoreet. Curabitur tempor elementum nulla ut tempor.
+                                </p>
+                                <h3 className="text-2xl mt-8">
+                                    Contact
+                                </h3>
+                                <p className="mt-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fermentum tellus nec blandit porttitor. Nulla faucibus nulla turpis, sed aliquet diam sollicitudin at. Suspendisse nec mauris odio. Sed pulvinar neque sit amet velit euismod, eget mollis diam imperdiet. In hac habitasse platea dictumst. Praesent rhoncus neque sit amet elit feugiat, vel convallis orci laoreet. Curabitur tempor elementum nulla ut tempor.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
