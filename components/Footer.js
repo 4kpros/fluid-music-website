@@ -26,7 +26,7 @@ const Footer = () => {
                             <h3 className="text-2xl text-neutral-700 font-semibold">
                                 Legalite
                             </h3>
-                            <Link href="/">
+                            <Link href="/policy">
                                 <a className="text-neutral-400 mt-2">
                                     Politique de confidentialite
                                 </a>
@@ -37,19 +37,19 @@ const Footer = () => {
                                 Reseaux sociaux
                             </h3>
                             <Link href="#">
-                                <a className="text-neutral-400 mt-2">
+                                <a className="text-neutral-400 mt-2" target="_blank">
                                     Twitter
                                 </a>
                             </Link>
-                            <Link href="#">
-                                <a className="text-neutral-400 mt-2">
+                            <Link href="https://www.facebook.com/fluidmusicsoft">
+                                <a className="text-neutral-400 mt-2" target="_blank">
                                     Facebook
                                 </a>
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
                             <Link href="#">
-                                <a className="mt-2">
+                                <a className="mt-2" target="_blank">
                                     <Image width={393} height={162} objectFit="contain" placeholder="blur" blurDataURL="/images/vendors/google-play-badge.png" src="/images/vendors/google-play-badge.png" alt="Google play download"/>
                                 </a>
                             </Link>
