@@ -18,7 +18,8 @@ const Navbar = () => {
     const router = useRouter()
 
     return (
-        <nav className='w-full text-white bg-gradient-to-r from-black to-[#616161]'>
+        <nav className='w-full text-white'>
+        {/* <nav className='w-full text-white bg-gradient-to-r from-black to-[#616161]'> */}
             <div className="w-full max-w-screen-lg px-8 mx-auto">
                 <div className='w-full flex justify-between items-center py-4'>
                     <Link href={`/`}>
