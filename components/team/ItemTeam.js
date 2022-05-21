@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { NextSeo } from 'next-seo'
 
 const ItemTeam = ({person}) => {
     return (
