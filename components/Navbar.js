@@ -20,7 +20,7 @@ const Navbar = () => {
     return (
         <nav className='w-full text-white bg-gradient-to-r from-black to-[#616161]'>
             <div className="w-full max-w-screen-lg px-8 mx-auto">
-                <div className='w-full flex justify-between items-center py-4'>
+                <div className='w-full flex justify-between items-center py-2'>
                     <Link href={`/`}>
                         <a className="flex items-center">
                             <Image width={60} height={50} objectFit="contain" placeholder="blur" blurDataURL="/images/fluid-music-icon-white.svg" src="/images/fluid-music-icon-white.svg" alt="site logo"/>
