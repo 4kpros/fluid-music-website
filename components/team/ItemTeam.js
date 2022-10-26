@@ -7,10 +7,10 @@ const ItemTeam = ({person}) => {
             <div className="h-96 w-96 relative">
                 <Image className="rounded-lg" objectFit="cover" layout="fill" blurDataURL={person && person.image ? person.image : '/images/profile/prosperabouar.webp'} src={person && person.image ? person.image : '/images/profile/prosperabouar.webp'} alt={person && person.name ? person.name : 'Pas de nom !'}/>
             </div>
-            <h3 className="text-2xl font-semibold mt-4">
+            <h3 className="font-semibold mt-4">
                 {person && person.name ? person.name : 'Pas de nom !'}
             </h3>
-            <h3 className="text-lg text-neutral-400">
+            <h3 className="text-neutral-400">
                 {person && person.work ? person.work : 'Pas de travail !'}
             </h3>
             <div className="w-full flex mt-4 space-x-8">
