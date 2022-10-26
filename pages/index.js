@@ -24,25 +24,25 @@ export default function Home() {
               <div className="w-1/2 flex justify-center mt-4">
                 <Link href="/">
                   <a className="" target="_blank">
-                    <Image width={393} height={162} objectFit="contain" placeholder="blur" blurDataURL="/images/vendors/google-play-badge.png" src="/images/vendors/google-play-badge.png" alt="Google play download"/>
+                    <Image width={393} height={162} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/vendors/google-play-badge.png" src="/images/vendors/google-play-badge.png" alt="Google play download"/>
                   </a>
                 </Link>
               </div>
             </div>
             <div className="w-full hidden lg:flex items-center justify-center space-x-8">
               <div className="w-1/2">
-                <Image width={865} height={1332} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Lights-screenshoots.webp" src="/images/screenshoots/Lights-screenshoots.webp" alt="Fluid-music mobile screenshoot 1"/>
+                <Image width={865} height={1332} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Lights-screenshoots.webp" src="/images/screenshoots/Lights-screenshoots.webp" alt="Fluid-music mobile screenshoot 1"/>
               </div>
               <div className="w-1/2">
-                <Image width={865} height={1332} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Dark-screenshoots.webp" src="/images/screenshoots/Dark-screenshoots.webp" alt="Fluid-music mobile screenshoot 2"/>
+                <Image width={865} height={1332} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Dark-screenshoots.webp" src="/images/screenshoots/Dark-screenshoots.webp" alt="Fluid-music mobile screenshoot 2"/>
               </div>
             </div>
             <div className="w-full flex flex-col lg:hidden items-center justify-center pt-10 space-y-8">
               <div className="">
-                <Image width={865} height={1332} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/screenshoot1.webp" src="/images/screenshoots/screenshoot1.webp" alt="Fluid-music mobile screenshoot 1"/>
+                <Image width={865} height={1332} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/screenshoot1.webp" src="/images/screenshoots/screenshoot1.webp" alt="Fluid-music mobile screenshoot 1"/>
               </div>
               <div className="">
-                <Image width={865} height={1332} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/screenshoot2.webp" src="/images/screenshoots/screenshoot2.webp" alt="Fluid-music mobile screenshoot 2"/>
+                <Image width={865} height={1332} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/screenshoot2.webp" src="/images/screenshoots/screenshoot2.webp" alt="Fluid-music mobile screenshoot 2"/>
               </div>
             </div>
             <h3 className="font-semibold text-center text-2xl mt-4">
@@ -50,7 +50,7 @@ export default function Home() {
             </h3>
             <div className="w-full flex flex-col items-center pt-10">
               <div className="w-full">
-                <Image width={1482} height={956} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Fluid-music-tablet-screen-1.webp" src="/images/screenshoots/Fluid-music-tablet-screen-1.webp" alt="Fluid-music tablet screenshoot 1"/>
+                <Image width={988} height={637} quality={50} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Fluid-music-tablet-screen-1.webp" src="/images/screenshoots/Fluid-music-tablet-screen-1.webp" alt="Fluid-music tablet screenshoot 1"/>
               </div>
             </div>
             <h3 className="font-semibold text-center text-2xl mt-4">

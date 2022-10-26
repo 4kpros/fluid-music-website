@@ -28,13 +28,13 @@ export default function About() {
                         <div className="w-full flex flex-col items-center">
                             <div className="w-full flex flex-col md:flex-row justify-center items-center">
                                 <div className="m-4">
-                                    <Image width={375} height={812} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Home-music.webp" src="/images/screenshoots/Home-music.webp" alt="Fluid-music-1"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Home-music.webp" src="/images/screenshoots/Home-music.webp" alt="Fluid-music-1"/>
                                 </div>
                                 <div className="m-4">
-                                    <Image width={375} height={812} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Home-music-fullscreen.webp" src="/images/screenshoots/Home-music-fullscreen.webp" alt="Fluid-music-fullscreen"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Home-music-fullscreen.webp" src="/images/screenshoots/Home-music-fullscreen.webp" alt="Fluid-music-fullscreen"/>
                                 </div>
                                 <div className="m-4">
-                                    <Image width={375} height={812} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Equalizer.webp" src="/images/screenshoots/Equalizer.webp" alt="Fluid-music-equ"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Equalizer.webp" src="/images/screenshoots/Equalizer.webp" alt="Fluid-music-equ"/>
                                 </div>
                             </div>
                             <h3 className="mt-4 font-semibold text-center">
