@@ -34,7 +34,7 @@ export default function Contributions() {
                                     Traduction 
                                 </h1>
                                 <h3 className="">
-                                Pour nous aider à traduire l'application, veuillez vous rendre à <a href='https://poeditor.com/join/project/ytUUxGZtzz' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>cette page</a>.
+                                Pour nous aider à traduire l&apos;application, veuillez vous rendre à <a href='https://poeditor.com/join/project/ytUUxGZtzz' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>cette page</a>.
                                 </h3>
                             </article>
                             <article className="flex flex-col flex-wrap">
@@ -42,7 +42,7 @@ export default function Contributions() {
                                     Design 
                                 </h1>
                                 <h3 className="">
-                                Vous pourrez contribuer à l'amélioration de l'UX et l'UI. Veuillez cliquer sur <a href='https://www.figma.com/file/XwEoyQ1CvGClTxtUzq3PmI/Fluid-music?node-id=907%3A2' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>ce lien</a> pour commencer.
+                                Vous pourrez contribuer à l&apos;amélioration de l&apos;UX et l'UI. Veuillez cliquer sur <a href='https://www.figma.com/file/XwEoyQ1CvGClTxtUzq3PmI/Fluid-music?node-id=907%3A2' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>ce lien</a> pour commencer.
                                 </h3>
                             </article>
                             <article className="flex flex-col flex-wrap mt-8">
