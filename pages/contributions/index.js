@@ -50,7 +50,7 @@ export default function Contributions() {
                                 Fluid Music est un lecteur de sons local. Il ne supporte pas le streaming ou le téléchargement de musiques.
                                 </h3>
                                 <h3 className="">
-                                    A noter que Fluid Music est sous licence GNU General Public Licence v3.0 (GPLv3). Vous pouvez trouver le lien <a href='' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>ici</a>.
+                                    A noter que Fluid Music est sous licence GNU General Public Licence v3.0 (GPLv3). Vous pouvez trouver le lien <a href='https://github.com/4kpros/fluidmusic/LICENCE.md' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>ici</a>.
                                 </h3>
                             </article>
                             <article className="flex flex-col flex-wrap mt-8">

@@ -32,7 +32,7 @@ const Navbar = () => {
                     <Link href={`/`}>
                         <a className="flex items-center">
                             <Image width={60} height={50} objectFit="contain" placeholder="blur" blurDataURL="/images/fluid-music-icon-white.svg" src="/images/fluid-music-icon-white.svg" alt="site logo"/>
-                            <h1 className="text-xl font-bold">Fuid Music</h1>
+                            <h1 className="text-xl font-bold">Fluid Music</h1>
                         </a>
                     </Link>
                     <div className="hidden md:flex space-x-8">
