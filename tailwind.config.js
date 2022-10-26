@@ -18,5 +18,9 @@ module.exports = {
         // 'default-background': "url('/public/img/blog-background.jpg')",
       },
     },
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 }

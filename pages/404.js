@@ -17,16 +17,16 @@ export default function Custom404() {
                             <div className="w-128 h-128">
                                 {/* <Image width={128} height={128} objectFit="scale-down" placeholder="blur" priority blurDataURL="/images/svg/alerts/warn.webp" src="/images/svg/alerts/warn.webp" alt=""/> */}
                             </div>
-                            <h3 className="text-center text-3xl font-semibold">
+                            <h3 className="text-center font-semibold">
                                 ERREUR 404 !
                             </h3>
-                            <p className="text-center text-xl text-gray-400 mt-4">
-                                Cette page semble ne pas exister. Veillez retourner à la page d accueil.
+                            <p className="text-center text-gray-400 mt-4">
+                                Cette page semble ne pas exister. Veillez retourner à la page d&apos;accueil.
                             </p>
                             <div className="mt-12">
                                 <Link href="/">
-                                    <button className="text-lg font-bold bg-white rounded-lg text-black px-6 py-2 text-center focus:outline-none">
-                                        Page d accueil
+                                    <button className="font-bold bg-white rounded-lg text-black px-6 py-2 text-center focus:outline-none">
+                                        Page d&apos;accueil
                                     </button>
                                 </Link>
                             </div>

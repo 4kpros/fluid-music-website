@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className='w-full py-20'>
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         <div className="w-full flex flex-col">
-                            <h3 className="text-2xl text-neutral-700 font-semibold">
+                            <h3 className="text-neutral-700 font-semibold">
                                 Fluid music
                             </h3>
                             <Link href="/">
@@ -23,18 +23,18 @@ const Footer = () => {
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
-                            <h3 className="text-2xl text-neutral-700 font-semibold">
-                                Legalite
+                            <h3 className="text-neutral-700 font-semibold">
+                                Legalité
                             </h3>
                             <Link href="/policy">
                                 <a className="text-neutral-400 mt-2">
-                                    Politique de confidentialite
+                                    Politique de confidentialité
                                 </a>
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
-                            <h3 className="text-2xl text-neutral-700 font-semibold">
-                                Reseaux sociaux
+                            <h3 className="text-neutral-700 font-semibold">
+                                Réseaux sociaux
                             </h3>
                             <Link href="#">
                                 <a className="text-neutral-400 mt-2" target="_blank">
