@@ -10,7 +10,7 @@ const description = "Fluid music website"
 const team = [
     {
         "name": "Abouar Prosper",
-        "work": "Developpeur web et mobile",
+        "work": "Lead développeur et designer",
         "image": "/images/profile/prosperabouar.webp",
         "linkedin": "https://www.linkedin.com/in/prosper-abouar-408089134/",
         "github": "https://github.com/4kpros",
