@@ -8,10 +8,6 @@ const links = [
         href: '/',
     },
     {
-        name: 'Nouveautés',
-        href: '/news',
-    },
-    {
         name: 'Contribuer',
         href: '/contributions',
     },
