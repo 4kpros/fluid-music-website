@@ -46,7 +46,7 @@ export default function Home() {
               </div>
             </div>
             <h3 className="font-semibold text-center text-2xl mt-4">
-              Un design moderne, avec le mode jour/sombre, des arrières plan dynamiques et plein d'autres.
+              Un design moderne, avec le mode jour/sombre, des arrières plan dynamiques et plein d&apos;autres.
             </h3>
             <div className="w-full flex flex-col items-center pt-10">
               <div className="w-full">
