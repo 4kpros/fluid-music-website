@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
+import useTranslation from 'next-translate/useTranslation'
 
 const title = 'Les nouveautes'
 const description = "Fluid music website"

@@ -3,10 +3,15 @@ const nextConfig = {
   reactStrictMode: true,
   i18n: {
     // providing the locales supported by your application
-   locales: ["fr-FR", "en-US"],
+   locales: ["fr", "en"],
    //  default locale used when the non-locale paths are visited
-   defaultLocale: "fr-FR",
+   defaultLocale: "fr",
   },
 }
+const nextTranslate = require('next-translate')
 
-module.exports = nextConfig
+module.exports = nextTranslate({
+  webpack: (config, { isServer, webpack }) => {
+    return config;
+  }
+})

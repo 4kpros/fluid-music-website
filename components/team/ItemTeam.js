@@ -1,7 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import useTranslation from 'next-translate/useTranslation'
 
 const ItemTeam = ({person}) => {
+    const { t } = useTranslation('common')
+  
+    const leadDeveloperDesigner = t('leadDeveloperDesigner')
+    const githubMaintainer = t('githubMaintainer')
+    const appMaintainer = t('appMaintainer')
+
     return (
         <div className="w-auto flex flex-col m-4">
             <div className="h-52 w-52 relative">
@@ -11,7 +18,9 @@ const ItemTeam = ({person}) => {
                 {person && person.name ? person.name : 'Pas de nom !'}
             </h3>
             <h3 className="text-neutral-400">
-                {person && person.work ? person.work : 'Pas de travail !'}
+                {person && person.work === "LDD" ? leadDeveloperDesigner : null}
+                {person && person.work === "GM" ? githubMaintainer : null}
+                {person && person.work === "AM" ? appMaintainer : null}
             </h3>
             <div className="w-full flex mt-4 space-x-8">
                 <Link href={person && person.linkedin ? person.linkedin : '#'}>

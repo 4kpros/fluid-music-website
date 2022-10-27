@@ -1,0 +1,20 @@
+{
+    "appName": "Fluid Music",
+    "heroText": "Rejoignez l'equipe de developpement de Fluid Music",
+    "sourceGithub": "Code Source",
+    
+    "translation": "Traduction",
+    "translationDescription": "Pour nous aider à traduire l'application, veuillez vous rendre à",
+    "translationLink": "cette page",
+    
+    "design": "Design",
+    "designDescription": "Pour nous aider à traduire l'application, veuillez vous rendre à",
+    "designLink": "ce lien",
+
+    "featuresResume": "Fluid Music est un lecteur de sons local. Il ne supporte pas le streaming ou le téléchargement de musiques",
+
+    "licenceDescription": "A noter que Fluid Music est sous licence GNU General Public Licence v3.0 (GPLv3). Vous pouvez trouver le lien",
+    "licenceLink": "ici",
+
+    "thanks": "Merci à tous ceux qui prennent leur précieux temps pour améliorer cette application"
+}

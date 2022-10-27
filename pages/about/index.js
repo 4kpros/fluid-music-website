@@ -1,24 +1,32 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import { NextSeo } from 'next-seo'
+import useTranslation from 'next-translate/useTranslation'
 
 import ItemTeam from '../../components/team/ItemTeam'
+
+import team from '../../components/data/team.json'
 
 const title = 'A propos'
 const description = "Fluid music website"
 
-const team = [
-    {
-        "name": "Abouar Prosper",
-        "work": "Lead développeur et designer",
-        "image": "/images/profile/prosperabouar.webp",
-        "linkedin": "https://www.linkedin.com/in/prosper-abouar-408089134/",
-        "github": "https://github.com/4kpros",
-        "website": "https://prosperabouar.vercel.app/"
-    }
-]
-
 export default function About() {
+    const { t } = useTranslation('about')
+  
+    const hero1Text = t('hero1Text')
+    const teamText = t('teamText')
+
+    const hero1Image1Src = t('hero1Image1Src')
+    const hero1Image1blurDataURL = t('hero1Image1blurDataURL')
+    const hero1Image1Alt = t('hero1Image1Alt')
+  
+    const hero1Image2Src = t('hero1Image2Src')
+    const hero1Image2blurDataURL = t('hero1Image2blurDataURL')
+    const hero1Image2Alt = t('hero1Image2Alt')
+
+  
+    const hero1Image3Src = t('hero1Image2Src')
+    const hero1Image3blurDataURL = t('hero1Image2blurDataURL')
+    const hero1Image3Alt = t('hero1Image2Alt')
     return (
         <div>
             <NextSeo title={title} description={description} openGraph={{ title, description }} />
@@ -28,22 +36,22 @@ export default function About() {
                         <div className="w-full flex flex-col items-center">
                             <div className="w-full flex flex-col md:flex-row justify-center items-center">
                                 <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Home-music.webp" src="/images/screenshoots/Home-music.webp" alt="Fluid-music-1"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image1blurDataURL} src={hero1Image1Src} alt={hero1Image1Alt}/>
                                 </div>
                                 <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/blur/Home-music-fullscreen.webp" src="/images/screenshoots/Home-music-fullscreen.webp" alt="Fluid-music-fullscreen"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image2blurDataURL} src={hero1Image2Src} alt={hero1Image2Alt}/>
                                 </div>
                                 <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL="/images/screenshoots/Equalizer.webp" src="/images/screenshoots/Equalizer.webp" alt="Fluid-music-equ"/>
+                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image3blurDataURL} src={hero1Image3Src} alt={hero1Image3Alt}/>
                                 </div>
                             </div>
                             <h3 className="mt-4 font-semibold text-center">
-                            Fluid music, lecteur audio open source disponible sur Android et reprend les grands standards des lecteurs conventionnels. Ce lecteur a donc les fonctionnalités de base d’une application de ce type. Vous pourrez jouer les sons depuis votre téléphone et votre carte SD. Les formats audios sont encodés aux nouvelles versions et compatibles MP3, OGG, FLAC etc... Il dispose d’un égaliseur intégré de 5 à 10 bandes.
+                                {hero1Text}
                             </h3>
                         </div>
                         <div className="w-full flex flex-col items-center my-10">
                             <h1 className="text-center font-bold">
-                            L&apos;équipe
+                                {teamText}
                             </h1>
                             <div className="w-full flex flex-wrap justify-center">
                                 {
