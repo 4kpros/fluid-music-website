@@ -1,0 +1,12 @@
+{
+    "locales": ["en", "fr"],
+    "defaultLocale": "en",
+    "pages": {
+        "*": ["common"],
+        "/404": ["404"],
+        "/": ["home"],
+        "/contributions": ["contributions"],
+        "/about": ["about"],
+        "/policy": ["policy"]
+    }
+  }

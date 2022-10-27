@@ -1,11 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
+import useTranslation from 'next-translate/useTranslation'
 
 const title = 'Erreur 404 !'
 const description = "Page non existante !"
 
 export default function Custom404() {
+    const { t } = useTranslation('404')
+  
+    const error = t('error')
+    const errorMessage = t('errorMessage')
+    const homePage = t('homePage')
+
     return (
     <div>
         <NextSeo title={title} description={description} openGraph={{ title, description }} />
@@ -14,19 +21,16 @@ export default function Custom404() {
                 <div className="w-full max-w-screen-xl mx-auto px-4">
                     <div className="w-full min-h-[80vh] flex justify-center items-center">
                         <div className="flex flex-col justify-center items-center">
-                            <div className="w-128 h-128">
-                                {/* <Image width={128} height={128} objectFit="scale-down" placeholder="blur" priority blurDataURL="/images/svg/alerts/warn.webp" src="/images/svg/alerts/warn.webp" alt=""/> */}
-                            </div>
                             <h3 className="text-center font-semibold">
-                                ERREUR 404 !
+                                {error} !
                             </h3>
                             <p className="text-center text-gray-400 mt-4">
-                                Cette page semble ne pas exister. Veillez retourner à la page d&apos;accueil.
+                                {errorMessage}
                             </p>
-                            <div className="mt-12">
+                            <div className="mt-8">
                                 <Link href="/">
                                     <button className="font-bold bg-white rounded-lg text-black px-6 py-2 text-center focus:outline-none">
-                                        Page d&apos;accueil
+                                        {homePage}
                                     </button>
                                 </Link>
                             </div>
