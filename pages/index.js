@@ -55,7 +55,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="w-full flex flex-col lg:flex-row items-center justify-center lg:space-x-8">
+            <div className="w-full md:flex hidden md:flex-row items-center justify-center md:space-x-8">
               <div className="w-1/2">
                 <Image width={865} height={1332} quality={50} objectFit="contain" placeholder="blur" blurDataURL={hero1Image1blurDataURL} src={hero1Image1Src} alt={hero1Image1Alt}/>
               </div>
