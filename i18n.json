@@ -7,7 +7,6 @@
         "/": ["home"],
         "/contributions": ["contributions"],
         "/about": ["about"],
-        "/news": ["news"],
         "/policy": ["policy"]
     }
   }

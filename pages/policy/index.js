@@ -4,7 +4,7 @@ import useTranslation from 'next-translate/useTranslation'
 const title = 'Politique de confidentialite'
 const description = "Fluid music website"
 
-const index = () => {
+export default function Policy() {
     const { t } = useTranslation('policy')
   
     const heroText = t('heroText')
@@ -49,5 +49,3 @@ const index = () => {
         </div>
     );
 };
-
-export default index;
