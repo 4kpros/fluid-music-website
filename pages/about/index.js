@@ -24,9 +24,9 @@ export default function About() {
     const hero1Image2Alt = t('hero1Image2Alt')
 
   
-    const hero1Image3Src = t('hero1Image2Src')
-    const hero1Image3blurDataURL = t('hero1Image2blurDataURL')
-    const hero1Image3Alt = t('hero1Image2Alt')
+    const hero1Image3Src = t('hero1Image3Src')
+    const hero1Image3blurDataURL = t('hero1Image3blurDataURL')
+    const hero1Image3Alt = t('hero1Image3Alt')
     return (
         <div>
             <NextSeo title={title} description={description} openGraph={{ title, description }} />
