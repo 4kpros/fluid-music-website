@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 
-const title = 'Accueil'
-const description = "Fluid music website"
-
 export default function Home() {
   const { t } = useTranslation('home')
+
+  const pageTile = t('pageTile')
+  const pageDescription = t('pageDescription')
 
   const appName = t('appName')
 
@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div>
-      <NextSeo title={title} description={description} openGraph={{ title, description }} />
+      <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
       <section className="w-full text-white">
         <div className="w-full max-w-screen-lg px-2 mx-auto">
           <div className="w-full min-h-screen my-8">

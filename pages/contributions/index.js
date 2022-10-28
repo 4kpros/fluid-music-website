@@ -2,11 +2,11 @@ import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 
-const title = 'Contributions'
-const description = "Contribuer au developpement du projet"
-
 export default function Contributions() {
   const { t } = useTranslation('contributions')
+
+  const pageTile = t('pageTile')
+  const pageDescription = t('pageDescription')
 
   const appName = t('appName')
 
@@ -30,7 +30,7 @@ export default function Contributions() {
 
     return (
         <div>
-            <NextSeo title={title} description={description} openGraph={{ title, description }} />
+            <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <section className="w-full text-white">
                 <div className="w-full max-w-screen-lg min-h-[65vh] px-8 mx-auto">
                     <div className="w-full my-8">

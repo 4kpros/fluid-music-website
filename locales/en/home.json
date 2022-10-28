@@ -1,4 +1,7 @@
 {
+    "pageTile": "Home",
+    "pageDescription": "Fluid music website",
+    
     "appName": "Fluid Music",
 
     "heroTitle": "Open source music player for Android 13",
@@ -16,7 +19,7 @@
     "hero1Image2blurDataURL": "/images/en/screenshoots/blur/Dark-screenshoots.webp",
     "hero1Image2Alt": "Fluid-music mobile screenshoot 2",
     
-    "hero2Text": "A large panel of equalizers to edit your musical styles easily. Compatible on tablets in landscape and portrait mode.",
+    "hero2Text": "A large panel of equalizer to edit your musical styles easily. Compatible on tablets in landscape and portrait mode.",
     
     "hero2ImageSrc": "/images/en/screenshoots/Fluid-music-tablet-screen-1.webp",
     "hero2ImageblurDataURL": "/images/en/screenshoots/blur/Fluid-music-tablet-screen-1.webp",

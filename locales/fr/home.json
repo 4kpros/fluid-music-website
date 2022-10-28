@@ -1,4 +1,7 @@
 {
+    "pageTile": "Accueil",
+    "pageDescription": "Fluid music",
+    
     "appName": "Fluid Music",
 
     "heroTitle": "Application d'écoute de musiques open source compatible Android 13",
@@ -16,7 +19,7 @@
     "hero1Image2blurDataURL": "/images/fr/screenshoots/blur/Dark-screenshoots.webp",
     "hero1Image2Alt": "Fluid-music mobile screenshoot 2",
     
-    "hero2Text": "Un large panel d'equalizer pour éditer vos styles musicaux facilement. Compatible sur tablettes en mode paysage et portrait.",
+    "hero2Text": "Un large panel avec bandes pour éditer vos styles musicaux facilement. Compatible sur tablettes en mode paysage et portrait.",
     
     "hero2ImageSrc": "/images/fr/screenshoots/Fluid-music-tablet-screen-1.webp",
     "hero2ImageblurDataURL": "/images/fr/screenshoots/blur/Fluid-music-tablet-screen-1.webp",

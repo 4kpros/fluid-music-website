@@ -1,4 +1,7 @@
 {
+    "pageTile": "Privacy settings",
+    "pageDescription": "Privacy settings",
+    
     "heroText": "Privacy settings",
     "collectedData": "Collected data",
     "sharedData": "Shared data",
