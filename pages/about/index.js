@@ -6,11 +6,11 @@ import ItemTeam from '../../components/team/ItemTeam'
 
 import team from '../../components/data/team.json'
 
-const title = 'A propos'
-const description = "Fluid music website"
-
 export default function About() {
     const { t } = useTranslation('about')
+
+    const pageTile = t('pageTile')
+    const pageDescription = t('pageDescription')
   
     const hero1Text = t('hero1Text')
     const teamText = t('teamText')
@@ -29,7 +29,7 @@ export default function About() {
     const hero1Image3Alt = t('hero1Image3Alt')
     return (
         <div>
-            <NextSeo title={title} description={description} openGraph={{ title, description }} />
+            <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <section className="w-full text-white">
                 <div className="w-full max-w-screen-lg px-8 mx-auto">
                     <div className="w-full min-h-screen my-8">

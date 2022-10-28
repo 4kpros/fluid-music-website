@@ -1,4 +1,7 @@
 {
+    "pageTile": "About",
+    "pageDescription": "More about Fluid Music",
+    
     "hero1Text": "Fluid music, an open source music player available on Android and uses the main standards of conventional players. This player has the basic features of an application of this type. You will be able to play sounds from your phone storage and your SD card. The audio formats are encoded in the latest versions and are compatible with MP3, OGG, FLAC etc... It has an integrated equalizer from 5 to 10 bands depending of your phone.",
     "teamText": "Team",
 

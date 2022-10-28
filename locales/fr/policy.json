@@ -1,4 +1,7 @@
 {
+    "pageTile": "Paramètres de confidentialité",
+    "pageDescription": "Paramètres de confidentialité",
+    
     "heroText": "Paramètres de confidentialité",
     "collectedData": "Les donnés collectées",
     "sharedData": "Les donnés partagées",

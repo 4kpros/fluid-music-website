@@ -1,4 +1,7 @@
 {
+    "pageTile": "Error 404",
+    "pageDescription": "This page does not exist !",
+
     "error": "Error 404",
     "errorMessage": "This page does not seem to exist",
     "homePage": "Home page"
