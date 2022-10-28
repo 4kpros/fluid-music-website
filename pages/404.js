@@ -3,11 +3,11 @@ import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 
-const title = 'Erreur 404 !'
-const description = "Page non existante !"
-
 export default function Custom404() {
     const { t } = useTranslation('404')
+
+    const pageTile = t('pageTile')
+    const pageDescription = t('pageDescription')
   
     const error = t('error')
     const errorMessage = t('errorMessage')
@@ -15,7 +15,7 @@ export default function Custom404() {
 
     return (
     <div>
-        <NextSeo title={title} description={description} openGraph={{ title, description }} />
+        <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
         <div className="w-full text-white">
             <section className="w-full">
                 <div className="w-full max-w-screen-xl mx-auto px-4">

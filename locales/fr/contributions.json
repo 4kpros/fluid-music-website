@@ -1,4 +1,7 @@
 {
+    "pageTile": "Contributions",
+    "pageDescription": "Contribuer au développement du projet", 
+    
     "appName": "Fluid Music",
     "heroText": "Rejoignez l'equipe de developpement de Fluid Music",
     "sourceGithub": "Code Source",
