@@ -39,7 +39,7 @@ export default function Contributions() {
                                 <Image width={100} height={100} objectFit="contain" src="/images/svg/community.svg" alt="Community"/>
                             </div>
                             <h1 className="text-2xl font-bold">
-                                {heroText} {appName}
+                                {heroText}
                             </h1>
                             <div className='w-auto my-8'>
                                 <a href='https://github.com/4kpros/fluidmusic' target='_blank' rel='noreferrer' className='w-auto px-6 py-2.5 flex justify-center items-center rounded-lg bg-gray-500 shadow-lg'>
