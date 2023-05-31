@@ -54,7 +54,7 @@ export default function Home() {
                       width={250} 
                       height={128} 
                       src={t('common:playstoreImg')} 
-                      alt='Google Play Store'
+                      alt=''
                       className='w-auto h-20 object-contain'
                     />
                 </Link>
@@ -79,7 +79,7 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg1} 
-                          alt='Hero Image 1'
+                          alt=''
                           className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
@@ -87,7 +87,7 @@ export default function Home() {
                         width={250} 
                         height={500} 
                         src={heroImg1} 
-                        alt='Hero Image 1'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
                       <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
@@ -109,7 +109,7 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg2} 
-                          alt='Hero Image 2'
+                          alt=''
                           className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
@@ -117,7 +117,7 @@ export default function Home() {
                         width={250} 
                         height={500} 
                         src={heroImg2} 
-                        alt='Hero Image 2'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
                       <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
@@ -139,7 +139,7 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg3} 
-                          alt='Hero Image 3'
+                          alt=''
                           className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
@@ -147,7 +147,7 @@ export default function Home() {
                         width={250} 
                         height={500} 
                         src={heroImg3} 
-                        alt='Hero Image 3'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
                       <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
