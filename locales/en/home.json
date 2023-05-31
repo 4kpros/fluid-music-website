@@ -5,23 +5,15 @@
     "appName": "Fluid Music",
 
     "heroTitle": "Open source music player for Android 13",
+    "heroSubTitle": "Modern design, with day/night mode, dynamic backgrounds and many more.",
+    "sectionText": "A large panel to edit your musical styles easily.",
 
-    "downloadPlayStoreImageSrc": "/images/en/vendors/google-play-badge.png",
-    "downloadPlayStoreImageAlt": "Google play download",
-
-    "hero1Text": "Modern design, with day/night mode, dynamic backgrounds and many more.",
-
-    "hero1Image1Src": "/images/en/screenshoots/Lights-screenshoots.webp",
-    "hero1Image1blurDataURL": "/images/en/screenshoots/blur/Lights-screenshoots.webp",
-    "hero1Image1Alt": "Fluid-music mobile screenshoot 1",
-
-    "hero1Image2Src": "/images/en/screenshoots/Dark-screenshoots.webp",
-    "hero1Image2blurDataURL": "/images/en/screenshoots/blur/Dark-screenshoots.webp",
-    "hero1Image2Alt": "Fluid-music mobile screenshoot 2",
-    
-    "hero2Text": "A large panel of equalizer to edit your musical styles easily. Compatible on tablets in landscape and portrait mode.",
-    
-    "hero2ImageSrc": "/images/en/screenshoots/Fluid-music-tablet-screen-1.webp",
-    "hero2ImageblurDataURL": "/images/en/screenshoots/blur/Fluid-music-tablet-screen-1.webp",
-    "hero2ImageAlt": "Fluid-music tablet screenshoot 1"
+    "heroImg1": "/images/screenshoots/Fluid-Music-1.jpg",
+    "heroImg2": "/images/screenshoots/Fluid-Music-2.jpg",
+    "heroImg3": "/images/screenshoots/Fluid-Music-3.jpg",
+    "heroImg4": "/images/screenshoots/Fluid-Music-4.jpg",
+    "sectionImg1": "/images/screenshoots/Fluid-Music-5.jpg",
+    "sectionImg2": "/images/screenshoots/Fluid-Music-6.jpg",
+    "sectionImg3": "/images/screenshoots/Fluid-Music-7.jpg",
+    "sectionImg4": "/images/screenshoots/Fluid-Music-8.jpg"
 }

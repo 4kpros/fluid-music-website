@@ -12,46 +12,61 @@ export default function About() {
     const pageTile = t('pageTile')
     const pageDescription = t('pageDescription')
   
-    const hero1Text = t('hero1Text')
-    const teamText = t('teamText')
+    const heroDesc = t('heroDesc')
+    const teamTitle = t('teamTitle')
 
-    const hero1Image1Src = t('hero1Image1Src')
-    const hero1Image1blurDataURL = t('hero1Image1blurDataURL')
-    const hero1Image1Alt = t('hero1Image1Alt')
-  
-    const hero1Image2Src = t('hero1Image2Src')
-    const hero1Image2blurDataURL = t('hero1Image2blurDataURL')
-    const hero1Image2Alt = t('hero1Image2Alt')
+    const demo1 = t('demo1')
+    const demo2 = t('demo2')
+    const demo3 = t('demo3')
+    const demo4 = t('demo4')
 
-  
-    const hero1Image3Src = t('hero1Image3Src')
-    const hero1Image3blurDataURL = t('hero1Image3blurDataURL')
-    const hero1Image3Alt = t('hero1Image3Alt')
     return (
-        <div>
+        <>
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
-            <section className="w-full text-white">
-                <div className="w-full max-w-screen-lg px-8 mx-auto">
-                    <div className="w-full min-h-screen my-8">
-                        <div className="w-full flex flex-col items-center">
-                            <div className="w-full flex flex-col md:flex-row justify-center items-center">
-                                <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image1blurDataURL} src={hero1Image1Src} alt={hero1Image1Alt}/>
-                                </div>
-                                <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image2blurDataURL} src={hero1Image2Src} alt={hero1Image2Alt}/>
-                                </div>
-                                <div className="m-4">
-                                    <Image width={300} height={650} objectFit="contain" placeholder="blur" blurDataURL={hero1Image3blurDataURL} src={hero1Image3Src} alt={hero1Image3Alt}/>
-                                </div>
-                            </div>
-                            <h3 className="mt-4 font-semibold text-center">
-                                {hero1Text}
+            <div className="w-full min-h-[80vh] text-white">
+                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div className="w-full min-h-screen my-8" id='demos'>
+                        <div className="w-full flex flex-col items-center mt-10">
+                            <h3 className="w-full max-w-3xl font-semibold text-center">
+                                {t('common:demosTitle')}
                             </h3>
                         </div>
+                        <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-evenly md:space-x-4 mt-8">
+                            <Image 
+                                width={250} 
+                                height={500} 
+                                src={demo1} 
+                                alt='Demo 1'
+                                className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
+                            />
+                            <Image 
+                                width={250} 
+                                height={500} 
+                                src={demo2} 
+                                alt='Demo 2'
+                                className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
+                            />
+                            <Image 
+                                width={250} 
+                                height={500} 
+                                src={demo3} 
+                                alt='Demo 3'
+                                className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
+                            />
+                            <Image 
+                                width={250} 
+                                height={500} 
+                                src={demo4} 
+                                alt='Demo 4'
+                                className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
+                            />
+                        </div>
                         <div className="w-full flex flex-col items-center my-10">
-                            <h1 className="text-center font-bold">
-                                {teamText}
+                            <h3 className="w-full max-w-3xl font-semibold text-center">
+                                {heroDesc}
+                            </h3>
+                            <h1 className="text-center font-bold mt-10">
+                                {teamTitle}
                             </h1>
                             <div className="w-full flex flex-wrap justify-center">
                                 {
@@ -68,7 +83,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </>
     );
 };

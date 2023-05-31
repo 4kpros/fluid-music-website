@@ -13,10 +13,10 @@ export default function Policy() {
     const logData = t('logData')
 
     return (
-        <div>
+        <>
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
-            <section className="w-full text-white">
-                <div className="w-full max-w-screen-lg px-8 mx-auto">
+            <div className="w-full min-h-[80vh] text-white">
+                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="w-full min-h-screen my-8">
                         <div className="w-full flex flex-col py-10">
                             <h1 className="text-5xl font-bold">
@@ -45,7 +45,7 @@ export default function Policy() {
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </>
     );
 };

@@ -26,14 +26,18 @@ const Navbar = () => {
     }
     
     return (
-        <nav className='w-full mx-0 px-0 text-white bg-gradient-to-r from-black to-[#616161]'>
-            <div className="w-full max-w-screen-lg px-8 mx-auto">
+        <nav className='w-full text-white bg-gradient-to-r from-black to-[#616161]'>
+            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className='w-full flex justify-between items-center py-2'>
-                    <Link href={`/`}>
-                        <a className="flex items-center">
-                            <Image width={60} height={50} objectFit="contain" placeholder="blur" blurDataURL="/images/fluid-music-icon-white.svg" src="/images/fluid-music-icon-white.svg" alt="site logo"/>
-                            <h1 className="text-xl font-bold">{appName}</h1>
-                        </a>
+                    <Link href={`/`} className="flex items-center">
+                        <Image 
+                            width={60} 
+                            height={50} 
+                            src="/images/fluid-music-icon-white.svg" 
+                            alt="site logo"
+                            className='w-8 object-contain lg:w-12'
+                        />
+                        <h1 className="text-md md:text-lg lg:text-xl font-bold">{appName}</h1>
                     </Link>
                     <div className='flex md:hidden'>
                         <svg
@@ -53,40 +57,58 @@ const Navbar = () => {
                         </svg>
                     </div>
                     <div className="hidden md:flex space-x-8">
-                        <Link href={link1Href} passHref scroll={false}>
-                            <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                {link1}
-                            </a>
+                        <Link 
+                            href={link1Href} 
+                            passHref 
+                            scroll={false}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                        >
+                            {link1}
                         </Link>
-                        <Link href={link2Href} passHref scroll={false}>
-                            <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                {link2}
-                            </a>
+                        <Link 
+                            href={link2Href} 
+                            passHref 
+                            scroll={false}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                        >
+                            {link2}
                         </Link>
-                        <Link href={link3Href} passHref scroll={false}>
-                            <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                {link3}
-                            </a>
+                        <Link 
+                            href={link3Href} 
+                            passHref 
+                            scroll={false}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                        >
+                            {link3}
                         </Link>
                     </div>
                 </div>
                 <div className='w-full flex justify-end pb-4 md:hidden'>
                     <div className={`w-auto text-right ${showMore ? '' : 'hidden'}`}>
                         <div className='w-auto flex flex-col space-y-2'>
-                            <Link href={link1Href} passHref scroll={false}>
-                                <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                    {link1}
-                                </a>
+                            <Link 
+                                href={link1Href} 
+                                passHref 
+                                scroll={false}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            >
+                                {link1}
                             </Link>
-                            <Link href={link2Href} passHref scroll={false}>
-                                <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                    {link2}
-                                </a>
+                            <Link 
+                                href={link2Href} 
+                                passHref 
+                                scroll={false}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            >
+                                {link2}
                             </Link>
-                            <Link href={link3Href} passHref scroll={false}>
-                                <a className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}>
-                                    {link3}
-                                </a>
+                            <Link 
+                                href={link3Href} 
+                                passHref 
+                                scroll={false}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            >
+                                {link3}
                             </Link>
                         </div>
                     </div>

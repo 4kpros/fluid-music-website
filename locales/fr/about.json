@@ -2,18 +2,13 @@
     "pageTile": "A propos",
     "pageDescription": "Savoir plus sur Fluid Music",
     
-    "hero1Text": "Fluid music, lecteur audio open source disponible sur Android et reprend les grands standards des lecteurs conventionnels. Ce lecteur a donc les fonctionnalités de base d’une application de ce type. Vous pourrez jouer les sons depuis votre téléphone et votre carte SD. Les formats audios sont encodés aux nouvelles versions et compatibles MP3, OGG, FLAC etc... Il dispose d’un égaliseur intégré de 5 à 10 bandes.",
-    "teamText": "L'équipe",
+    "heroDesc": "Fluid music, lecteur audio open source disponible sur Android et reprend les grands standards des lecteurs conventionnels. Ce lecteur a donc les fonctionnalités de base d’une application de ce type. Vous pourrez jouer les sons depuis votre téléphone et votre carte SD. Les formats audios sont encodés aux nouvelles versions et compatibles MP3, OGG, FLAC etc... Il dispose d’un égaliseur intégré de 5 à 10 bandes.",
+    "teamTitle": "L'équipe",
 
-    "hero1Image1Src": "/images/fr/screenshoots/Home-music.webp",
-    "hero1Image1blurDataURL": "/images/fr/screenshoots/blur/Home-music.webp",
-    "hero1Image1Alt": "Fluid-music-1",
-
-    "hero1Image2Src": "/images/fr/screenshoots/Home-music-fullscreen.webp",
-    "hero1Image2blurDataURL": "/images/fr/screenshoots/blur/Home-music-fullscreen.webp",
-    "hero1Image2Alt": "Fluid-music-fullscreen",
-
-    "hero1Image3Src": "/images/fr/screenshoots/Equalizer.webp",
-    "hero1Image3blurDataURL": "/images/fr/screenshoots/blur/Equalizer.webp",
-    "hero1Image3Alt": "Fluid-music-equ"
+    "demo1": "/images/screenshoots/gif/Fluid-Music-GIF-1.gif",
+    "demo2": "/images/screenshoots/gif/Fluid-Music-GIF-2.gif",
+    "demo3": "/images/screenshoots/gif/Fluid-Music-GIF-3a.gif",
+    "demo4": "/images/screenshoots/gif/Fluid-Music-GIF-4.gif",
+    "demo5": "/images/screenshoots/gif/Fluid-Music-GIF-5.gif",
+    "demo6": "/images/screenshoots/gif/Fluid-Music-GIF-6.gif"
 }
