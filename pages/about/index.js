@@ -18,7 +18,6 @@ export default function About() {
     const demo1 = t('demo1')
     const demo2 = t('demo2')
     const demo3 = t('demo3')
-    const demo4 = t('demo4')
 
     return (
         <>
@@ -31,7 +30,7 @@ export default function About() {
                                 {t('common:demosTitle')}
                             </h3>
                         </div>
-                        <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-evenly md:space-x-4 mt-8">
+                        <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-8">
                             <Image 
                                 width={250} 
                                 height={500} 
@@ -51,13 +50,6 @@ export default function About() {
                                 height={500} 
                                 src={demo3} 
                                 alt='Demo 3'
-                                className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
-                            />
-                            <Image 
-                                width={250} 
-                                height={500} 
-                                src={demo4} 
-                                alt='Demo 4'
                                 className="w-[250px] h-[500px] object-contain bg-white/20 mt-2"
                             />
                         </div>

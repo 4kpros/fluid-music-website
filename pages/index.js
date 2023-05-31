@@ -18,7 +18,6 @@ export default function Home() {
   const heroImg1 = t('heroImg1')
   const heroImg2 = t('heroImg2')
   const heroImg3 = t('heroImg3')
-  const heroImg4 = t('heroImg4')
   const sectionImg1 = t('sectionImg1')
   const sectionImg2 = t('sectionImg2')
   const sectionImg3 = t('sectionImg3')
@@ -62,7 +61,7 @@ export default function Home() {
                 {t('common:seeDemos')}
               </Link>
             </div>
-            <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-evenly md:space-x-4 mt-16">
+            <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">
                 <Image 
                   width={250} 
                   height={500} 
@@ -82,13 +81,6 @@ export default function Home() {
                   height={500} 
                   src={heroImg3} 
                   alt='Hero Image 3'
-                  className="w-auto object-contain mt-2"
-                />
-                <Image 
-                  width={250} 
-                  height={500} 
-                  src={heroImg4} 
-                  alt='Hero Image 4'
                   className="w-auto object-contain mt-2"
                 />
             </div>
