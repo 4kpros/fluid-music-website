@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 import '../styles/globals.css'
+import { AnimatePresence } from 'framer-motion'
 
 function MyApp({ Component, pageProps, router}) {
   const url = `https://fluidmusic.vercel.app/${router.route}`
@@ -19,7 +20,7 @@ function MyApp({ Component, pageProps, router}) {
         titleTemplate="%s - Fluid music"
         openGraph={{
             type: 'website',
-            locale: 'fr_CM',
+            locale: 'fr_FR',
             url,
             description: '',
             site_name: 'fluidmusic.vercel.app',
@@ -43,7 +44,12 @@ function MyApp({ Component, pageProps, router}) {
         canonical={url}
     />
       <Navbar />
-      <Component {...pageProps} />
+      <AnimatePresence
+          mode='wait'
+          initial={true}
+      >
+        <Component {...pageProps} canonical={url} key={url} />
+      </AnimatePresence>
       <Footer />
     </>
   )

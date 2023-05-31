@@ -3,6 +3,7 @@ import { useRouter } from 'next/dist/client/router'
 import Link from 'next/link'
 import Image from 'next/image'
 import useTranslation from 'next-translate/useTranslation'
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
     
@@ -61,25 +62,49 @@ const Navbar = () => {
                             href={link1Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
                         >
                             {link1}
+                            {
+                                link1Href === router.pathname && (
+                                    <motion.div
+                                        layoutId="my-navlink-underline"
+                                        className="w-full border border-my-main-color "
+                                    />
+                                )
+                            }
                         </Link>
                         <Link 
                             href={link2Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
                         >
                             {link2}
+                            {
+                                link2Href === router.pathname && (
+                                    <motion.div
+                                        layoutId="my-navlink-underline"
+                                        className="w-full border border-my-main-color "
+                                    />
+                                )
+                            }
                         </Link>
                         <Link 
                             href={link3Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
                         >
                             {link3}
+                            {
+                                link3Href === router.pathname && (
+                                    <motion.div
+                                        layoutId="my-navlink-underline"
+                                        className="w-full border border-my-main-color "
+                                    />
+                                )
+                            }
                         </Link>
                     </div>
                 </div>
@@ -90,7 +115,7 @@ const Navbar = () => {
                                 href={link1Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
                             >
                                 {link1}
                             </Link>
@@ -98,7 +123,7 @@ const Navbar = () => {
                                 href={link2Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
                             >
                                 {link2}
                             </Link>
@@ -106,7 +131,7 @@ const Navbar = () => {
                                 href={link3Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? ` boder-b border-b-white border-b-2` : ` `}`}
+                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
                             >
                                 {link3}
                             </Link>

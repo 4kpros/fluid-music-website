@@ -25,7 +25,7 @@ const Footer = () => {
     return (
         <footer className='w-full text-white bg-my-footer-color mt-20'>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                <div className='w-full py-20'>
+                <div className='w-full py-10 px-6 lg:px-0'>
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         <div className="w-full flex flex-col">
                             <h3 className="text-neutral-700 font-semibold">
@@ -68,7 +68,7 @@ const Footer = () => {
                             <Link 
                                 href="#" 
                                 target="_blank"
-                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2" 
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2 hidden" 
                             >
                                 {twitter}
                             </Link>

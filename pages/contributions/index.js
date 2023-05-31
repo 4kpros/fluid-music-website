@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Contributions() {
   const { t } = useTranslation('contributions')
@@ -22,28 +23,31 @@ export default function Contributions() {
 
   const featuresResume = t('featuresResume')
 
-  const licenceTitle = t('licenceTitle')
   const licenceDescription = t('licenceDescription')
 
   const thanks = t('thanks')
 
     return (
-        <>
+        <motion.div
+            initial={{ y: -25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1, duration: 0.1, }}
+            exit={{ y: 10, opacity: 0, duration: 0 }}
+        >
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <div className="w-full min-h-[80vh] text-white">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="w-full my-8">
                         <div className="w-full flex flex-col items-center text-center">
                             <div className='w-auto'>
-                                <Image width={100} height={100} objectFit="contain" src="/images/svg/community.svg" alt="Community"/>
+                                <Image width={100} height={100} src="/images/svg/community.svg" alt="Community"/>
                             </div>
                             <h1 className="text-2xl font-bold">
                                 {heroText}
                             </h1>
-                            <div className='w-auto my-8'>
+                            <div className='w-auto mt-8'>
                                 <Link 
                                     href='#'
-                                    className='w-auto px-6 py-2.5 flex justify-center items-center rounded-lg bg-gray-500 shadow-lg'
+                                    className='w-auto px-6 py-2.5 flex flex-wrap justify-center items-center rounded-lg bg-gray-500 shadow-lg'
                                 >
                                     <p className='mr-2'>
                                         {sourceGithub}({t('common:commingSoon')})
@@ -57,11 +61,11 @@ export default function Contributions() {
                                         />
                                 </Link>
                             </div>
-                            <article className="flex flex-col flex-wrap">
-                                <h1 className="mt-4 text-xl font-semibold my-2">
+                            <article className="flex flex-col flex-wrap mt-8">
+                                <h1 className="text-xl font-semibold">
                                     {translation} 
                                 </h1>
-                                <div className="w-auto flex flex-wrap">
+                                <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
                                         {translationDescription} 
                                     </span>
@@ -74,11 +78,11 @@ export default function Contributions() {
                                     </Link>
                                 </div>
                             </article>
-                            <article className="flex flex-col flex-wrap">
-                                <h1 className="mt-4 text-xl font-semibold my-2">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
+                                <h1 className="mt-4 text-xl font-semibold">
                                     {design} 
                                 </h1>
-                                <div className="w-auto flex flex-wrap">
+                                <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
                                         {designDescription} 
                                     </span>
@@ -91,14 +95,14 @@ export default function Contributions() {
                                     </Link>
                                 </div>
                             </article>
-                            <article className="flex flex-col flex-wrap mt-8">
-                                <h1 className="mt-4 text-xl font-semibold my-2">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
+                                <h1 className="text-xl font-semibold">
                                     {t('common:licence')} 
                                 </h1>
                                 <h3 className="">
                                     {featuresResume}
                                 </h3>
-                                <div className="w-auto flex flex-wrap">
+                                <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
                                         {licenceDescription} 
                                     </span>
@@ -110,7 +114,7 @@ export default function Contributions() {
                                     </Link>
                                 </div>
                             </article>
-                            <article className="flex flex-col flex-wrap mt-8">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
                                 <h3 className="">
                                 {thanks}
                                 </h3>
@@ -119,6 +123,6 @@ export default function Contributions() {
                     </div>
                 </div>
             </div>
-        </>
+        </motion.div>
     );
 };
