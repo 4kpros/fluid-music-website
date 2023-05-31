@@ -54,7 +54,7 @@ export default function Home() {
                       width={250} 
                       height={128} 
                       src={t('common:playstoreImg')} 
-                      alt='Google Play Store'
+                      alt=''
                       className='w-auto h-20 object-contain'
                     />
                 </Link>
@@ -79,17 +79,25 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg1} 
-                          alt='Hero Image 1'
-                          className="max-w-[250px] object-contain border border-white/10"
+                          alt=''
+                          className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
                         src={heroImg1} 
-                        alt='Hero Image 1'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
+                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                          <svg 
+                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              className='w-24 h-24 fill-white opacity-20' 
+                          >
+                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                          </svg>
+                      </div>
                     </div>
                     <div className='relative mt-2'>
                       <motion.div 
@@ -101,17 +109,25 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg2} 
-                          alt='Hero Image 2'
-                          className="max-w-[250px] object-contain border border-white/10"
+                          alt=''
+                          className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
                         src={heroImg2} 
-                        alt='Hero Image 2'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
+                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                          <svg 
+                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              className='w-24 h-24 fill-white opacity-20' 
+                          >
+                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                          </svg>
+                      </div>
                     </div>
                     <div className='relative mt-2'>
                       <motion.div 
@@ -123,17 +139,25 @@ export default function Home() {
                           width={250} 
                           height={500} 
                           src={heroImg3} 
-                          alt='Hero Image 3'
-                          className="max-w-[250px] object-contain border border-white/10"
+                          alt=''
+                          className="max-w-[250px] object-contain border border-[#383838]"
                         />
                       </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
                         src={heroImg3} 
-                        alt='Hero Image 3'
+                        alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
                       />
+                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                          <svg 
+                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                              className='w-24 h-24 fill-white opacity-20' 
+                          >
+                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                          </svg>
+                      </div>
                     </div>
                   </div>
                 )
@@ -144,34 +168,74 @@ export default function Home() {
               {
                 sectionImg1.startsWith('/') && (
                   <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">
+                  <div className='relative mt-2'>
                     <Image 
                       width={250} 
                       height={500} 
                       src={sectionImg1} 
-                      alt='Section Image 1'
-                      className="max-w-[250px] object-contain mt-2"
+                      alt=''
+                      className="max-w-[250px] object-contain"
                     />
+                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            className='w-24 h-24 fill-white opacity-20' 
+                        >
+                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                        </svg>
+                    </div>
+                  </div>
+                  <div className='relative mt-2'>
                     <Image 
                       width={250} 
                       height={500} 
                       src={sectionImg2} 
-                      alt='Section Image 2'
-                      className="max-w-[250px] object-contain mt-2"
+                      alt=''
+                      className="max-w-[250px] object-contain"
                     />
+                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            className='w-24 h-24 fill-white opacity-20' 
+                        >
+                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                        </svg>
+                    </div>
+                  </div>
+                  <div className='relative mt-2'>
                     <Image 
                       width={250} 
-                      height={500}  
+                      height={500} 
                       src={sectionImg3} 
-                      alt='Section Image 3'
-                      className="max-w-[250px] object-contain mt-2"
+                      alt=''
+                      className="max-w-[250px] object-contain"
                     />
+                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            className='w-24 h-24 fill-white opacity-20' 
+                        >
+                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                        </svg>
+                    </div>
+                  </div>
+                  <div className='relative mt-2'>
                     <Image 
                       width={250} 
-                      height={500}  
+                      height={500} 
                       src={sectionImg4} 
-                      alt='Section Image 4'
-                      className="max-w-[250px] object-contain mt-2"
+                      alt=''
+                      className="max-w-[250px] object-contain"
                     />
+                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            className='w-24 h-24 fill-white opacity-20' 
+                        >
+                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
+                        </svg>
+                    </div>
+                  </div>
                   </div>
                 )
               }
