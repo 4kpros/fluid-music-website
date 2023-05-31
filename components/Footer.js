@@ -18,66 +18,81 @@ const Footer = () => {
     const twitter = t('twitter')
     const facebook = t('facebook')
 
-    const downloadPlayStoreImageSrc = t('downloadPlayStoreImageSrc')
-    const downloadPlayStoreImageAlt = t('downloadPlayStoreImageAlt')
+    const playstoreImg = t('playstoreImg')
 
     const copyRight = t('copyRight')
 
     return (
         <footer className='w-full text-white bg-my-footer-color mt-20'>
-            <div className="w-full max-w-screen-lg px-8 mx-auto">
-                <div className='w-full py-20'>
+            <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                <div className='w-full py-10 px-6 lg:px-0'>
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         <div className="w-full flex flex-col">
                             <h3 className="text-neutral-700 font-semibold">
                                 {appName}
                             </h3>
-                            <Link href="/">
-                                <a className="text-neutral-400 mt-2">
-                                    {home}
-                                </a>
+                            <Link 
+                                href="/" 
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
+                            >
+                                {home}
                             </Link>
-                            <Link href="/contributions">
-                                <a className="text-neutral-400 mt-2">
-                                    {contributions}
-                                </a>
+                            <Link 
+                                href="/contributions" 
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
+                            >
+                                {contributions}
                             </Link>
-                            <Link href="/about">
-                                <a className="text-neutral-400 mt-2">
-                                    {about}
-                                </a>
+                            <Link 
+                                href="/about" 
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
+                            >
+                                {about}
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
                             <h3 className="text-neutral-700 font-semibold">
                                 {legal}
                             </h3>
-                            <Link href="/policy">
-                                <a className="text-neutral-400 mt-2">
-                                    {policy}
-                                </a>
+                            <Link 
+                                href="/policy" 
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
+                            >
+                                {policy}
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
                             <h3 className="text-neutral-700 font-semibold">
                                 {socialMedia}
                             </h3>
-                            <Link href="#">
-                                <a className="text-neutral-400 mt-2" target="_blank">
-                                    {twitter}
-                                </a>
+                            <Link 
+                                href="#" 
+                                target="_blank"
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2 hidden" 
+                            >
+                                {twitter}
                             </Link>
-                            <Link href="https://www.facebook.com/fluidmusicsoft">
-                                <a className="text-neutral-400 mt-2" target="_blank">
-                                    {facebook}
-                                </a>
+                            <Link 
+                                href="https://www.facebook.com/fluidmusicsoft" 
+                                target="_blank"
+                                className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2" 
+                            >
+                                {facebook}
                             </Link>
                         </div>
                         <div className="w-full flex flex-col">
-                            <Link href="#">
-                                <a className="mt-2" target="_blank">
-                                    <Image width={393} height={162} objectFit="contain" src={downloadPlayStoreImageSrc} alt={downloadPlayStoreImageAlt}/>
-                                </a>
+                            <Link 
+                                href="#" 
+                                className="w-auto mt-2" 
+                                target="_blank"
+                            >
+                                <Image 
+                                    width={250} 
+                                    height={128} 
+                                    src={playstoreImg} 
+                                    alt="Google Play Store"
+                                    className='w-auto h-20 object-contain'
+                                />
                             </Link>
                         </div>
                     </div>

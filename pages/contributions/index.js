@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 export default function Contributions() {
   const { t } = useTranslation('contributions')
 
   const pageTile = t('pageTile')
   const pageDescription = t('pageDescription')
-
-  const appName = t('appName')
 
   const heroText = t('heroText')
   const sourceGithub = t('sourceGithub')
@@ -24,56 +24,97 @@ export default function Contributions() {
   const featuresResume = t('featuresResume')
 
   const licenceDescription = t('licenceDescription')
-  const licenceLink = t('licenceLink')
 
   const thanks = t('thanks')
 
     return (
-        <div>
+        <motion.div
+            initial={{ y: -25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1, duration: 0.1, }}
+            exit={{ y: 10, opacity: 0, duration: 0 }}
+        >
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
-            <section className="w-full text-white">
-                <div className="w-full max-w-screen-lg min-h-[65vh] px-8 mx-auto">
+            <div className="w-full min-h-[80vh] text-white">
+                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="w-full my-8">
                         <div className="w-full flex flex-col items-center text-center">
                             <div className='w-auto'>
-                                <Image width={100} height={100} objectFit="contain" src="/images/svg/community.svg" alt="Community"/>
+                                <Image width={100} height={100} src="/images/svg/community.svg" alt="Community"/>
                             </div>
                             <h1 className="text-2xl font-bold">
                                 {heroText}
                             </h1>
-                            <div className='w-auto my-8'>
-                                <a href='https://github.com/4kpros/fluidmusic' target='_blank' rel='noreferrer' className='w-auto px-6 py-2.5 flex justify-center items-center rounded-lg bg-gray-500 shadow-lg'>
+                            <div className='w-auto mt-8'>
+                                <Link 
+                                    href='#'
+                                    className='w-auto px-6 py-2.5 flex flex-wrap justify-center items-center rounded-lg bg-gray-500 shadow-lg'
+                                >
                                     <p className='mr-2'>
-                                        {sourceGithub}
+                                        {sourceGithub}({t('common:commingSoon')})
                                     </p>
-                                    <Image width={24} height={24} objectFit="contain" src="/images/svg/github.svg" alt="Github"/>
-                                </a>
+                                    <Image 
+                                        width={24} 
+                                        height={24}
+                                        src="/images/svg/github.svg" 
+                                        alt="Github"
+                                        className='object-contain'
+                                        />
+                                </Link>
                             </div>
-                            <article className="flex flex-col flex-wrap">
-                                <h1 className="mt-4 text-xl font-semibold my-2">
+                            <article className="flex flex-col flex-wrap mt-8">
+                                <h1 className="text-xl font-semibold">
                                     {translation} 
                                 </h1>
-                                <h3 className="">
-                                {translationDescription} <a href='https://poeditor.com/join/project/ytUUxGZtzz' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>{translationLink}</a>
-                                </h3>
+                                <div className="w-auto flex flex-wrap justify-center items-center">
+                                    <span className='mr-2'>
+                                        {translationDescription} 
+                                    </span>
+                                    <Link 
+                                        href='https://poeditor.com/join/project/ytUUxGZtzz'
+                                        target='_blank' rel='noreferrer'
+                                        className='w-auto underline font-bold text-blue-300'
+                                    >
+                                        {translationLink}
+                                    </Link>
+                                </div>
                             </article>
-                            <article className="flex flex-col flex-wrap">
-                                <h1 className="mt-4 text-xl font-semibold my-2">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
+                                <h1 className="mt-4 text-xl font-semibold">
                                     {design} 
                                 </h1>
-                                <h3 className="">
-                                {designDescription} <a href='https://www.figma.com/file/XwEoyQ1CvGClTxtUzq3PmI/Fluid-music?node-id=907%3A2' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>{designLink}</a>
-                                </h3>
+                                <div className="w-auto flex flex-wrap justify-center items-center">
+                                    <span className='mr-2'>
+                                        {designDescription} 
+                                    </span>
+                                    <Link 
+                                        href='https://www.figma.com/file/XwEoyQ1CvGClTxtUzq3PmI/Fluid-music?node-id=907%3A2'
+                                        target='_blank' rel='noreferrer'
+                                        className='w-auto underline font-bold text-blue-300'
+                                    >
+                                        {designLink}
+                                    </Link>
+                                </div>
                             </article>
-                            <article className="flex flex-col flex-wrap mt-8">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
+                                <h1 className="text-xl font-semibold">
+                                    {t('common:licence')} 
+                                </h1>
                                 <h3 className="">
                                     {featuresResume}
                                 </h3>
-                                <h3 className="">
-                                    {licenceDescription} <a href='https://github.com/4kpros/FluidMusic/blob/dev/LICENCE.md' target='_blank' rel='noreferrer' className='w-auto underline font-bold text-blue-300'>{licenceLink}</a>.
-                                </h3>
+                                <div className="w-auto flex flex-wrap justify-center items-center">
+                                    <span className='mr-2'>
+                                        {licenceDescription} 
+                                    </span>
+                                    <Link 
+                                        href='#' 
+                                        className='w-auto underline font-bold text-blue-300'
+                                    >
+                                        {t('common:licence')}({t('common:commingSoon')})
+                                    </Link>
+                                </div>
                             </article>
-                            <article className="flex flex-col flex-wrap mt-8">
+                            <article className="flex flex-col flex-wrap justify-center items-center mt-8">
                                 <h3 className="">
                                 {thanks}
                                 </h3>
@@ -81,7 +122,7 @@ export default function Contributions() {
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </motion.div>
     );
 };

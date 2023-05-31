@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
+import { motion } from 'framer-motion'
 
 export default function Custom404() {
     const { t } = useTranslation('404')
@@ -14,12 +14,15 @@ export default function Custom404() {
     const homePage = t('homePage')
 
     return (
-    <div>
-        <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
-        <div className="w-full text-white">
-            <section className="w-full">
-                <div className="w-full max-w-screen-xl mx-auto px-4">
-                    <div className="w-full min-h-[80vh] flex justify-center items-center">
+        <motion.div
+            initial={{ y: -25, opacity: 0 }}
+            animate={{ y: 0, opacity: 1, duration: 0.1, }}
+            exit={{ y: 10, opacity: 0, duration: 0 }}
+        >
+            <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
+            <div className="w-full min-h-[80vh] text-white">
+                <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                    <div className="w-full flex justify-center items-center">
                         <div className="flex flex-col justify-center items-center">
                             <h3 className="text-center font-semibold">
                                 {error} !
@@ -37,8 +40,7 @@ export default function Custom404() {
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </div>
+            </div>
+        </motion.div>
     )
   }

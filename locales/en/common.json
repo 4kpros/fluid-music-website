@@ -1,6 +1,11 @@
 {
     "appName": "Fluid Music",
 
+    "commingSoon": "Comming soon",
+    "demosTitle": "Demos",
+    "seeDemos": "See demos",
+    "licence": "Licence",
+
     "leadDeveloperDesigner": "Lead developer and designer",
     "githubMaintainer": "GitHub maintainer",
     "appMaintainer": "App maintainer",
@@ -20,7 +25,7 @@
     "socialMedia": "Social media",
     "twitter": "Twitter",
     "facebook": "Facebook",
-    "downloadPlayStoreImageSrc": "/images/en/vendors/google-play-badge.png",
-    "downloadPlayStoreImageAlt": "Google play download",
-    "copyRight": "Copyright © 2022"
+    "copyRight": "Copyright © 2022",
+    
+    "playstoreImg": "/images/vendors/google-play-badge-en.png"
 }

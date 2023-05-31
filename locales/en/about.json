@@ -2,18 +2,10 @@
     "pageTile": "About",
     "pageDescription": "More about Fluid Music",
     
-    "hero1Text": "Fluid music, an open source music player available on Android and uses the main standards of conventional players. This player has the basic features of an application of this type. You will be able to play sounds from your phone storage and your SD card. The audio formats are encoded in the latest versions and are compatible with MP3, OGG, FLAC etc... It has an integrated equalizer from 5 to 10 bands depending of your phone.",
-    "teamText": "Team",
+    "heroDesc": "Fluid music, an open source music player available on Android and uses the main standards of conventional players. This player has the basic features of an application of this type. You will be able to play sounds from your phone storage and your SD card. The audio formats are encoded in the latest versions and are compatible with MP3, OGG, FLAC etc... It has an integrated equalizer from 5 to 10 bands depending of your phone.",
+    "teamTitle": "Team",
 
-    "hero1Image1Src": "/images/en/screenshoots/Home-music.webp",
-    "hero1Image1blurDataURL": "/images/en/screenshoots/blur/Home-music.webp",
-    "hero1Image1Alt": "Fluid-music-1",
-
-    "hero1Image2Src": "/images/en/screenshoots/Home-music-fullscreen.webp",
-    "hero1Image2blurDataURL": "/images/en/screenshoots/blur/Home-music-fullscreen.webp",
-    "hero1Image2Alt": "Fluid-music-fullscreen",
-
-    "hero1Image3Src": "/images/en/screenshoots/Equalizer.webp",
-    "hero1Image3blurDataURL": "/images/en/screenshoots/blur/Equalizer.webp",
-    "hero1Image3Alt": "Fluid-music-equ"
+    "demo1": "/images/screenshoots/gif/Fluid-Music-GIF-1.gif",
+    "demo2": "/images/screenshoots/gif/Fluid-Music-GIF-2.gif",
+    "demo3": "/images/screenshoots/gif/Fluid-Music-GIF-3a.gif"
 }
