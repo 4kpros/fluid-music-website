@@ -72,7 +72,7 @@ const Navbar = () => {
                                 link1Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full max-w-[10px] border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -88,7 +88,7 @@ const Navbar = () => {
                                 link2Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full max-w-[10px] border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -104,7 +104,7 @@ const Navbar = () => {
                                 link3Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full max-w-[10px] border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -120,7 +120,7 @@ const Navbar = () => {
                                 link4Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full max-w-[10px] border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -141,7 +141,7 @@ const Navbar = () => {
                                     link1Href === router.pathname && (
                                         <motion.div
                                             layoutId="my-navlink-underline-mobile"
-                                            className="w-full max-w-[10px] border border-my-main-color "
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
                                         />
                                     )
                                 }
@@ -157,7 +157,7 @@ const Navbar = () => {
                                     link2Href === router.pathname && (
                                         <motion.div
                                             layoutId="my-navlink-underline-mobile"
-                                            className="w-full max-w-[10px] border border-my-main-color "
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
                                         />
                                     )
                                 }
@@ -173,7 +173,7 @@ const Navbar = () => {
                                     link3Href === router.pathname && (
                                         <motion.div
                                             layoutId="my-navlink-underline-mobile"
-                                            className="w-full max-w-[10px] border border-my-main-color "
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
                                         />
                                     )
                                 }
@@ -189,7 +189,7 @@ const Navbar = () => {
                                 link4Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline-mobile"
-                                        className="w-full max-w-[10px] border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
