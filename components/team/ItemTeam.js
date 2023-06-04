@@ -11,13 +11,13 @@ const ItemTeam = ({person}) => {
 
     return (
         <div className="w-auto flex flex-col m-4">
-            <div className='relative bg-white/10 transition-all duration-300 hover:saturate-100 hover:scale-105 hover:bg-white/20'>
+            <div className='relative group bg-white/10 transition-all duration-200 hover:scale-105 hover:bg-white/20'>
                 <Image 
                     width={300}
                     height={300}
                     src={person && person.image ? person.image : ''} 
                     alt={person && person.name ? person.name : ''}
-                    className="w-52 h-52 lg:w-56 lg:h-56 object-cover saturate-50" 
+                    className="w-52 h-52 lg:w-56 lg:h-56 object-cover saturate-50 transition-all duration-200 group-hover:saturate-100" 
                 />
                 <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
                     <svg 
