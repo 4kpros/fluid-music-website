@@ -29,8 +29,7 @@ export default function Home() {
       <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
       <div className="w-full min-h-[80vh] text-white">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-          <div className="w-full min-h-screen my-8">
-            <div className="w-full flex flex-col items-center mt-5">
+            <div className="w-full flex flex-col items-center mt-8">
               <h1 className="w-full text-center text-2xl font-bold md:w-2/3">
                 {appName}
               </h1>
@@ -66,66 +65,54 @@ export default function Home() {
                 heroImg1.startsWith('/') && (
                   <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">
                     <div className='relative mt-2'>
-                      <motion.div 
-                        whileHover={{
-                          scale: 1.02
-                        }}
-                      >
-                        <Image 
-                          width={250} 
-                          height={500} 
-                          src={heroImg1} 
-                          alt=''
-                          className="max-w-[250px] object-contain"
-                        />
-                      </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
+                        quality={100}
+                        src={heroImg1} 
+                        alt=''
+                        className="max-w-[250px] object-contain"
+                      />
+                      <Image 
+                        width={250} 
+                        height={500} 
+                        quality={10}
                         src={heroImg1} 
                         alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
                       />
                     </div>
                     <div className='relative mt-2'>
-                      <motion.div 
-                        whileHover={{
-                          scale: 1.02
-                        }}
-                      >
-                        <Image 
-                          width={250} 
-                          height={500} 
-                          src={heroImg2} 
-                          alt=''
-                          className="max-w-[250px] object-contain"
-                        />
-                      </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
+                        quality={100}
+                        src={heroImg2} 
+                        alt=''
+                        className="max-w-[250px] object-contain"
+                      />
+                      <Image 
+                        width={250} 
+                        height={500} 
+                        quality={10}
                         src={heroImg2} 
                         alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
                       />
                     </div>
                     <div className='relative mt-2'>
-                      <motion.div 
-                        whileHover={{
-                          scale: 1.02
-                        }}
-                      >
-                        <Image 
-                          width={250} 
-                          height={500} 
-                          src={heroImg3} 
-                          alt=''
-                          className="max-w-[250px] object-contain"
-                        />
-                      </motion.div>
                       <Image 
                         width={250} 
                         height={500} 
+                        quality={100}
+                        src={heroImg3} 
+                        alt=''
+                        className="max-w-[250px] object-contain"
+                      />
+                      <Image 
+                        width={250} 
+                        height={500} 
+                        quality={10}
                         src={heroImg3} 
                         alt=''
                         className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
@@ -144,6 +131,7 @@ export default function Home() {
                     <Image 
                       width={1280} 
                       height={720} 
+                      quality={100}
                       src={sectionImg1} 
                       alt=''
                       className="w-full max-w-[1280px] object-contain"
@@ -153,7 +141,6 @@ export default function Home() {
               )
             }
           </div>
-        </div>
       </div>
     </motion.div>
   )

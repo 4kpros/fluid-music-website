@@ -36,7 +36,7 @@ export default function Contributions() {
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <div className="w-full min-h-[80vh] text-white">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                    <div className="w-full my-8">
+                    <div className="w-full mt-8">
                         <div className="w-full flex flex-col items-center text-center">
                             <div className='w-auto'>
                                 <Image width={100} height={100} src="/images/svg/community.svg" alt="Community"/>

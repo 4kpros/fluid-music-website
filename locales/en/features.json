@@ -1,0 +1,17 @@
+{
+    "pageTile": "Features",
+    "pageDescription": "All features",
+
+    "feature1": "Play songs from multiple sources(storage, external volumes, cast to Chromecast devices, stream from http server) and playlist files support",
+    "feature2": "Android Auto support",
+    "feature3": "Powerfull equalizer with support from 5 to 10+ bands(depends on device)",
+    "feature4": "Headset support with play/pause, next, stop commands with customs presets available",
+    "feature5": "Songs and contents filters",
+    "feature6": "Sleep timer",
+    "feature7": "Lyrics supports(find, sync)",
+    "feature8": "Auto download albums art",
+    "feature9": "Multiple files editor",
+    "feature10": "Google Assistant support",
+    "feature11": "Home screen widgets",
+    "feature12": "Amazing themes support(Material You) and customization"
+}

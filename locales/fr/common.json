@@ -12,10 +12,12 @@
 
     "link1": "Accueil",
     "link1Href": "/",
-    "link2": "Contributions",
-    "link2Href": "/contributions",
-    "link3": "A propos",
-    "link3Href": "/about",
+    "link2": "Fonctionnalités",
+    "link2Href": "/features",
+    "link3": "Contributions",
+    "link3Href": "/contributions",
+    "link4": "A propos",
+    "link4Href": "/about",
 
     "home": "Accueil",
     "contribute": "Contributions",

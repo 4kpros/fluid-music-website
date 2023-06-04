@@ -4,11 +4,11 @@
     
     "appName": "Fluid Music",
 
-    "heroTitle": "Open source music player for Android 13+",
+    "heroTitle": "Change the way you listen with a fluid audio experience",
     "heroSubTitle": "Modern design, with day/night mode, dynamic backgrounds, a large panel to edit your musical styles easily and many more",
 
-    "heroImg1": "/images/screenshoots/fluid-music-1.webp",
-    "heroImg2": "/images/screenshoots/fluid-music-2.webp",
-    "heroImg3": "/images/screenshoots/fluid-music-3.webp",
-    "sectionImg1": "/images/screenshoots/fluid-music-tablets.webp"
+    "heroImg1": "/images/screenshots/fluid-music-1.webp",
+    "heroImg2": "/images/screenshots/fluid-music-2.webp",
+    "heroImg3": "/images/screenshots/fluid-music-3.webp",
+    "sectionImg1": "/images/screenshots/fluid-music-tablets.webp"
 }
