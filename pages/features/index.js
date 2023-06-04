@@ -42,8 +42,8 @@ export default function Features() {
                                 <Image
                                     src={'/images/screenshots/fluid-music-features.webp'}
                                     alt=''
-                                    width={720}
-                                    height={600}
+                                    width={800}
+                                    height={710}
                                     quality={100}
                                     className='w-full max-w-3xl object-contain'
                                     />
