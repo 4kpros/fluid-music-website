@@ -50,7 +50,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-contain"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10  bg-white/10'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -68,7 +68,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-contain"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10  bg-white/10'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -86,7 +86,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-contain"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10  bg-white/10'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
