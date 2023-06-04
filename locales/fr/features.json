@@ -1,0 +1,17 @@
+{
+    "pageTile": "Fonctionnalités",
+    "pageDescription": "Toutes les fonctionnalités",
+
+    "feature1": "Lecture de audio depuis différentes sources(téléphone, volumes externes, Chromecast, serveur http) et prise en charge de playlists",
+    "feature2": "Prise en charge d'Android Auto",
+    "feature3": "Égaliseur puissant avec prise en charge de 5 à 10+ bandes (en fonction de l'appareil)",
+    "feature4": "Prise en charge des casques avec commandes de mise en lecture/pause, suivant, stop, avec des préréglages personnalisés",
+    "feature5": "Filtres de chansons et de contenus",
+    "feature6": "Minuteur de mise en veille",
+    "feature7": "Support des lyrics(trouver, synchroniser)",
+    "feature8": "Téléchargement automatique des photos de couverture des albums",
+    "feature9": "Édition groupée de fichiers",
+    "feature10": "Support de Google Assistant",
+    "feature11": "Widgets en page d'accueil",
+    "feature12": "Prise en charge de thèmes(avec Material You) et personnalisation"
+}

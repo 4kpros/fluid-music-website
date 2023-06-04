@@ -8,7 +8,7 @@ const Footer = () => {
     const appName = t('appName')
 
     const home = t('home')
-    const contributions = t('contributions')
+    const contribute = t('contribute')
     const about = t('about')
 
     const legal = t('legal')
@@ -23,7 +23,7 @@ const Footer = () => {
     const copyRight = t('copyRight')
 
     return (
-        <footer className='w-full text-white bg-my-footer-color mt-20'>
+        <footer className='w-full text-white bg-my-footer-color'>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className='w-full py-10 px-6 lg:px-0'>
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -38,10 +38,10 @@ const Footer = () => {
                                 {home}
                             </Link>
                             <Link 
-                                href="/contributions" 
+                                href="/contribute" 
                                 className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
                             >
-                                {contributions}
+                                {contribute}
                             </Link>
                             <Link 
                                 href="/about" 

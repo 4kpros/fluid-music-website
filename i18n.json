@@ -7,6 +7,7 @@
         "/": ["home"],
         "/contributions": ["contributions"],
         "/about": ["about"],
-        "/policy": ["policy"]
+        "/policy": ["policy"],
+        "/features": ["features"]
     }
   }

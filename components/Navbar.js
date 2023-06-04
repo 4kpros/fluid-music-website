@@ -21,6 +21,9 @@ const Navbar = () => {
 
     const link3 = t('link3')
     const link3Href = t('link3Href')
+
+    const link4 = t('link4')
+    const link4Href = t('link4Href')
     
     function toggleMenu(){
         setShowMore(!showMore)
@@ -62,14 +65,14 @@ const Navbar = () => {
                             href={link1Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
+                            className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
                         >
                             {link1}
                             {
                                 link1Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -78,14 +81,14 @@ const Navbar = () => {
                             href={link2Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
+                            className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
                         >
                             {link2}
                             {
                                 link2Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -94,14 +97,30 @@ const Navbar = () => {
                             href={link3Href} 
                             passHref 
                             scroll={false}
-                            className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
+                            className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
                         >
                             {link3}
                             {
                                 link3Href === router.pathname && (
                                     <motion.div
                                         layoutId="my-navlink-underline"
-                                        className="w-full border border-my-main-color "
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
+                                    />
+                                )
+                            }
+                        </Link>
+                        <Link 
+                            href={link4Href} 
+                            passHref 
+                            scroll={false}
+                            className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link4Href === router.pathname ? `` : ` `}`}
+                        >
+                            {link4}
+                            {
+                                link4Href === router.pathname && (
+                                    <motion.div
+                                        layoutId="my-navlink-underline"
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
                                     />
                                 )
                             }
@@ -115,26 +134,66 @@ const Navbar = () => {
                                 href={link1Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
+                                className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
                             >
                                 {link1}
+                                {
+                                    link1Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
                             <Link 
                                 href={link2Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
+                                className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
                             >
                                 {link2}
+                                {
+                                    link2Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
                             <Link 
                                 href={link3Href} 
                                 passHref 
                                 scroll={false}
-                                className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
+                                className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
                             >
                                 {link3}
+                                {
+                                    link3Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-1/3 min-w-[10px] border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
+                        <Link 
+                            href={link4Href} 
+                            passHref 
+                            scroll={false}
+                            className={`flex flex-col items-center relative hover:text-neutral-400 hover:border-neutral-400 ${link4Href === router.pathname ? `` : ` `}`}
+                        >
+                            {link4}
+                            {
+                                link4Href === router.pathname && (
+                                    <motion.div
+                                        layoutId="my-navlink-underline-mobile"
+                                        className="w-1/3 min-w-[10px] border border-my-main-color "
+                                    />
+                                )
+                            }
+                        </Link>
                         </div>
                     </div>
                 </div>

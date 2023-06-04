@@ -20,7 +20,7 @@ export default function Custom404() {
             exit={{ y: 10, opacity: 0, duration: 0 }}
         >
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
-            <div className="w-full min-h-[80vh] text-white">
+            <div className="w-full min-h-[80vh] text-white flex items-center">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="w-full flex justify-center items-center">
                         <div className="flex flex-col justify-center items-center">

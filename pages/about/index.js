@@ -29,12 +29,12 @@ export default function About() {
             <NextSeo title={pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <div className="w-full min-h-[80vh] text-white">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                    <div className="w-full min-h-screen my-8" id='demos'>
-                        <div className="w-full flex flex-col items-center mt-10">
-                            <h3 className="w-full font-semibold text-center">
+                    <div className="w-full min-h-screen mt-8" id='demos'>
+                        <div className="w-full flex flex-col items-center mt-8">
+                            <h1 className="w-full font-bold text-center text-2xl">
                                 {t('common:demosTitle')}
-                            </h3>
-                            <h3 className="w-full font-semibold text-center mt-4">
+                            </h1>
+                            <h3 className="w-full font-semibold text-center text-xl">
                                 {heroDesc}
                             </h3>
                         </div>
@@ -45,11 +45,12 @@ export default function About() {
                                         <Image 
                                             width={250} 
                                             height={500} 
+                                            quality={100}
                                             src={demo1} 
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -62,11 +63,12 @@ export default function About() {
                                         <Image 
                                             width={250} 
                                             height={500} 
+                                            quality={100}
                                             src={demo2} 
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -79,11 +81,12 @@ export default function About() {
                                         <Image 
                                             width={250} 
                                             height={500} 
+                                            quality={100}
                                             src={demo3} 
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
