@@ -48,7 +48,7 @@ export default function About() {
                                             quality={100}
                                             src={demo1} 
                                             alt=''
-                                            className="max-w-[250px] object-scale-down"
+                                            className="max-w-[250px] object-contain"
                                         />
                                         <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
@@ -66,7 +66,7 @@ export default function About() {
                                             quality={100}
                                             src={demo2} 
                                             alt=''
-                                            className="max-w-[250px] object-scale-down"
+                                            className="max-w-[250px] object-contain"
                                         />
                                         <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
@@ -84,7 +84,7 @@ export default function About() {
                                             quality={100}
                                             src={demo3} 
                                             alt=''
-                                            className="max-w-[250px] object-scale-down"
+                                            className="max-w-[250px] object-contain"
                                         />
                                         <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 

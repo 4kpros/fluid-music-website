@@ -13,12 +13,11 @@ export default function Home() {
   const appName = t('appName')
 
   const heroTitle = t('heroTitle')
-  const heroSubTitle = t('heroSubTitle')
 
   const heroImg1 = t('heroImg1')
   const heroImg2 = t('heroImg2')
   const heroImg3 = t('heroImg3')
-  const sectionImg1 = t('sectionImg1')
+  const heroImg4 = t('heroImg4')
 
   return (
     <motion.div
@@ -79,7 +78,7 @@ export default function Home() {
                         quality={10}
                         src={heroImg1} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-md"
                       />
                     </div>
                     <div className='relative mt-2'>
@@ -97,7 +96,7 @@ export default function Home() {
                         quality={10}
                         src={heroImg2} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-md"
                       />
                     </div>
                     <div className='relative mt-2'>
@@ -115,31 +114,31 @@ export default function Home() {
                         quality={10}
                         src={heroImg3} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-md"
+                      />
+                    </div>
+                    <div className='relative mt-2'>
+                      <Image 
+                        width={250} 
+                        height={500} 
+                        quality={100}
+                        src={heroImg4} 
+                        alt=''
+                        className="max-w-[250px] object-contain"
+                      />
+                      <Image 
+                        width={250} 
+                        height={500} 
+                        quality={10}
+                        src={heroImg4} 
+                        alt=''
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-md"
                       />
                     </div>
                   </div>
                 )
               }
-            <p className="font-semibold text-lg text-center mt-4">
-              {heroSubTitle}
-            </p>
-            {
-              sectionImg1.startsWith('/') && (
-                <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4">
-                  <div className='relative mt-2'>
-                    <Image 
-                      width={1280} 
-                      height={720} 
-                      quality={100}
-                      src={sectionImg1} 
-                      alt=''
-                      className="w-full max-w-[1280px] object-contain"
-                    />
-                  </div>
-                </div>
-              )
-            }
+            <br/><br/><br/>
           </div>
       </div>
     </motion.div>
