@@ -118,6 +118,14 @@ const Navbar = () => {
                                 className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link1Href === router.pathname ? `` : ` `}`}
                             >
                                 {link1}
+                                {
+                                    link1Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-full border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
                             <Link 
                                 href={link2Href} 
@@ -126,6 +134,14 @@ const Navbar = () => {
                                 className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link2Href === router.pathname ? `` : ` `}`}
                             >
                                 {link2}
+                                {
+                                    link2Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-full border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
                             <Link 
                                 href={link3Href} 
@@ -134,6 +150,14 @@ const Navbar = () => {
                                 className={`flex flex-col relative hover:text-neutral-400 hover:border-neutral-400 ${link3Href === router.pathname ? `` : ` `}`}
                             >
                                 {link3}
+                                {
+                                    link3Href === router.pathname && (
+                                        <motion.div
+                                            layoutId="my-navlink-underline-mobile"
+                                            className="w-full border border-my-main-color "
+                                        />
+                                    )
+                                }
                             </Link>
                         </div>
                     </div>

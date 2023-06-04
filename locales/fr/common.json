@@ -12,13 +12,13 @@
 
     "link1": "Accueil",
     "link1Href": "/",
-    "link2": "Contribuer",
+    "link2": "Contributions",
     "link2Href": "/contributions",
     "link3": "A propos",
     "link3Href": "/about",
 
     "home": "Accueil",
-    "contribution": "Contribution",
+    "contribute": "Contributions",
     "about": "A propos",
     "legal": "Legalité",
     "policy": "Politique de confidentialité",

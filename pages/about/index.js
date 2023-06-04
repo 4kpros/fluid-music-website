@@ -31,7 +31,7 @@ export default function About() {
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="w-full min-h-screen my-8" id='demos'>
                         <div className="w-full flex flex-col items-center mt-10">
-                            <h3 className="w-full font-semibold text-center">
+                            <h3 className="w-full font-semibold text-center text-xl">
                                 {t('common:demosTitle')}
                             </h3>
                             <h3 className="w-full font-semibold text-center mt-4">
@@ -49,7 +49,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -66,7 +66,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 
@@ -83,7 +83,7 @@ export default function About() {
                                             alt=''
                                             className="max-w-[250px] object-scale-down"
                                         />
-                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
+                                        <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20'>
                                             <svg 
                                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 className='w-24 h-24 fill-white opacity-20' 

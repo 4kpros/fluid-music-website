@@ -14,15 +14,11 @@ export default function Home() {
 
   const heroTitle = t('heroTitle')
   const heroSubTitle = t('heroSubTitle')
-  const sectionText = t('sectionText')
 
   const heroImg1 = t('heroImg1')
   const heroImg2 = t('heroImg2')
   const heroImg3 = t('heroImg3')
   const sectionImg1 = t('sectionImg1')
-  const sectionImg2 = t('sectionImg2')
-  const sectionImg3 = t('sectionImg3')
-  const sectionImg4 = t('sectionImg4')
 
   return (
     <motion.div
@@ -80,7 +76,7 @@ export default function Home() {
                           height={500} 
                           src={heroImg1} 
                           alt=''
-                          className="max-w-[250px] object-contain border border-[#383838]"
+                          className="max-w-[250px] object-contain"
                         />
                       </motion.div>
                       <Image 
@@ -88,16 +84,8 @@ export default function Home() {
                         height={500} 
                         src={heroImg1} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
                       />
-                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                          <svg 
-                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              className='w-24 h-24 fill-white opacity-20' 
-                          >
-                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                          </svg>
-                      </div>
                     </div>
                     <div className='relative mt-2'>
                       <motion.div 
@@ -110,7 +98,7 @@ export default function Home() {
                           height={500} 
                           src={heroImg2} 
                           alt=''
-                          className="max-w-[250px] object-contain border border-[#383838]"
+                          className="max-w-[250px] object-contain"
                         />
                       </motion.div>
                       <Image 
@@ -118,16 +106,8 @@ export default function Home() {
                         height={500} 
                         src={heroImg2} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
                       />
-                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                          <svg 
-                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              className='w-24 h-24 fill-white opacity-20' 
-                          >
-                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                          </svg>
-                      </div>
                     </div>
                     <div className='relative mt-2'>
                       <motion.div 
@@ -140,7 +120,7 @@ export default function Home() {
                           height={500} 
                           src={heroImg3} 
                           alt=''
-                          className="max-w-[250px] object-contain border border-[#383838]"
+                          className="max-w-[250px] object-contain"
                         />
                       </motion.div>
                       <Image 
@@ -148,100 +128,30 @@ export default function Home() {
                         height={500} 
                         src={heroImg3} 
                         alt=''
-                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-2xl"
+                        className="w-full h-full absolute top-0 left-0 -z-20 object-contain blur-lg"
                       />
-                      <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                          <svg 
-                              xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                              className='w-24 h-24 fill-white opacity-20' 
-                          >
-                              <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                          </svg>
-                      </div>
                     </div>
                   </div>
                 )
               }
-            <p className="font-semibold text-center mt-4">
+            <p className="font-semibold text-lg text-center mt-4">
               {heroSubTitle}
             </p>
-              {
-                sectionImg1.startsWith('/') && (
-                  <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">
+            {
+              sectionImg1.startsWith('/') && (
+                <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4">
                   <div className='relative mt-2'>
                     <Image 
-                      width={250} 
-                      height={500} 
+                      width={1280} 
+                      height={720} 
                       src={sectionImg1} 
                       alt=''
-                      className="max-w-[250px] object-contain"
+                      className="w-full max-w-[1280px] object-contain"
                     />
-                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            className='w-24 h-24 fill-white opacity-20' 
-                        >
-                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                        </svg>
-                    </div>
                   </div>
-                  <div className='relative mt-2'>
-                    <Image 
-                      width={250} 
-                      height={500} 
-                      src={sectionImg2} 
-                      alt=''
-                      className="max-w-[250px] object-contain"
-                    />
-                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            className='w-24 h-24 fill-white opacity-20' 
-                        >
-                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                        </svg>
-                    </div>
-                  </div>
-                  <div className='relative mt-2'>
-                    <Image 
-                      width={250} 
-                      height={500} 
-                      src={sectionImg3} 
-                      alt=''
-                      className="max-w-[250px] object-contain"
-                    />
-                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            className='w-24 h-24 fill-white opacity-20' 
-                        >
-                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                        </svg>
-                    </div>
-                  </div>
-                  <div className='relative mt-2'>
-                    <Image 
-                      width={250} 
-                      height={500} 
-                      src={sectionImg4} 
-                      alt=''
-                      className="max-w-[250px] object-contain"
-                    />
-                    <div className='w-full h-full flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/20 transition-all animate-pulse'>
-                        <svg 
-                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            className='w-24 h-24 fill-white opacity-20' 
-                        >
-                            <path d="M19.999 4h-16c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-13.5 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm5.5 10h-7l4-5 1.5 2 3-4 5.5 7h-7z"></path>
-                        </svg>
-                    </div>
-                  </div>
-                  </div>
-                )
-              }
-            <p className="font-semibold text-center mt-4">
-              {sectionText}
-            </p>
+                </div>
+              )
+            }
           </div>
         </div>
       </div>

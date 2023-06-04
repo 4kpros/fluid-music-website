@@ -49,16 +49,16 @@ export default function Contributions() {
                                     href='#'
                                     className='w-auto px-6 py-2.5 flex flex-wrap justify-center items-center rounded-lg bg-gray-500 shadow-lg'
                                 >
-                                    <p className='mr-2'>
-                                        {sourceGithub}({t('common:commingSoon')})
-                                    </p>
                                     <Image 
                                         width={24} 
                                         height={24}
                                         src="/images/svg/github.svg" 
                                         alt="Github"
-                                        className='object-contain'
-                                        />
+                                        className='object-contain mr-2'
+                                    />
+                                    <p className=''>
+                                        {sourceGithub}({t('common:commingSoon')})
+                                    </p>
                                 </Link>
                             </div>
                             <article className="flex flex-col flex-wrap mt-8">
