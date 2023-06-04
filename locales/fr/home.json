@@ -5,10 +5,9 @@
     "appName": "Fluid Music",
 
     "heroTitle": "Révolutionnez votre façon d'écouter grâce à une expérience audio fluide",
-    "heroSubTitle": "Un design moderne, avec le mode jour/sombre, des arrières plan dynamiques, un large panel pour éditer vos styles musicaux facilement plein d'autres",
 
     "heroImg1": "/images/screenshots/fluid-music-1.webp",
     "heroImg2": "/images/screenshots/fluid-music-2.webp",
     "heroImg3": "/images/screenshots/fluid-music-3.webp",
-    "sectionImg1": "/images/screenshots/fluid-music-tablets.webp"
+    "heroImg4": "/images/screenshots/fluid-music-4.webp"
 }
