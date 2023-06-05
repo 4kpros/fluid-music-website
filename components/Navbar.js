@@ -30,7 +30,7 @@ const Navbar = () => {
     }
     
     return (
-        <nav className='w-full text-white bg-gradient-to-r from-black to-[#616161]'>
+        <nav className='w-full text-white bg-gradient-to-r from-black to-[#222222]'>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className='w-full flex justify-between items-center py-2'>
                     <Link href={`/`} className="flex items-center">
