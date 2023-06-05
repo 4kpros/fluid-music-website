@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-footer-color': '#0D0D0D',
+        'my-footer-color': '#111111',
       },
       fontFamily: {
         poppinsSans: ['Poppins', 'sans-serif'],
