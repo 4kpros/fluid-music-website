@@ -7,7 +7,11 @@
     "heroTitle": "Révolutionnez votre façon d'écouter grâce à une expérience audio fluide",
 
     "heroImg1": "/images/screenshots/fluid-music-1.webp",
+    "heroImg1Blur": "/images/screenshots/blur/fluid-music-1.webp",
     "heroImg2": "/images/screenshots/fluid-music-2.webp",
+    "heroImg2Blur": "/images/screenshots/blur/fluid-music-2.webp",
     "heroImg3": "/images/screenshots/fluid-music-3.webp",
-    "heroImg4": "/images/screenshots/fluid-music-4.webp"
+    "heroImg3Blur": "/images/screenshots/blur/fluid-music-3.webp",
+    "heroImg4": "/images/screenshots/fluid-music-4.webp",
+    "heroImg4Blur": "/images/screenshots/blur/fluid-music-4.webp"
 }

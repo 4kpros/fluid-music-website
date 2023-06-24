@@ -31,5 +31,6 @@
     "facebook": "Facebook",
     "copyRight": "Copyright © 2022",
     
-    "playstoreImg": "/images/vendors/google-play-badge-fr.png"
+    "playstoreImg": "/images/vendors/google-play-badge-fr.png",
+    "playstoreImgBlur": "/images/vendors/blur/google-play-badge-fr.png"
 }
