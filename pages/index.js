@@ -30,12 +30,12 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="w-full flex flex-col items-center mt-8">
               <h1 className="w-full text-center text-2xl font-bold md:w-2/3">
-                {appName}
+                {appName !== 'appName' && appName}
               </h1>
             </div>
             <div className="w-full flex flex-col items-center">
               <h3 className="w-auto font-semibold text-center text-xl">
-                {heroTitle}
+                {heroTitle !== 'heroTitle' && heroTitle}
               </h3>
               <div className="w-1/2 flex flex-col justify-center items-center mt-6">
                 <h1 className='w-auto text-center text-3xl font-semibold animate-pulse transition-all'>
@@ -57,9 +57,9 @@ export default function Home() {
                   href="/about" 
                   className="w-auto font-semibold text-center text-xl underline transition-all hover:opacity-80 mt-4"
                 >
-                {t('common:seeDemos')}
-              </Link>
-            </div>
+                  {t('common:seeDemos') !== 'seeDemos' && t('common:seeDemos')}
+                </Link>
+              </div>
               {
                 heroImg1.startsWith('/') && (
                   <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">

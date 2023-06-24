@@ -42,7 +42,7 @@ export default function Contributions() {
                                 <Image width={100} height={100} src="/images/svg/community.svg" alt="Community"/>
                             </div>
                             <h1 className="text-2xl font-bold">
-                                {heroText}
+                                {heroText !== 'heroText' && heroText}
                             </h1>
                             <div className='w-auto mt-8'>
                                 <Link 
@@ -57,66 +57,68 @@ export default function Contributions() {
                                         className='object-contain mr-2'
                                     />
                                     <p className=''>
-                                        {sourceGithub}({t('common:commingSoon')})
+                                        {sourceGithub !== 'sourceGithub' && sourceGithub}
+                                        ({t('common:commingSoon') !== 'commingSoon' && t('common:commingSoon')})
                                     </p>
                                 </Link>
                             </div>
                             <article className="flex flex-col flex-wrap mt-8">
                                 <h1 className="text-xl font-semibold">
-                                    {translation} 
+                                    {translation !== 'translation' && translation}
                                 </h1>
                                 <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
-                                        {translationDescription} 
+                                        {translationDescription !== 'translationDescription' && translationDescription}
                                     </span>
                                     <Link 
                                         href='https://poeditor.com/join/project/ytUUxGZtzz'
                                         target='_blank' rel='noreferrer'
                                         className='w-auto underline font-bold text-blue-300'
                                     >
-                                        {translationLink}
+                                        {translationLink !== 'translationLink' && translationLink}
                                     </Link>
                                 </div>
                             </article>
                             <article className="flex flex-col flex-wrap justify-center items-center mt-8">
                                 <h1 className="mt-4 text-xl font-semibold">
-                                    {design} 
+                                    {design !== 'design' && design}
                                 </h1>
                                 <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
-                                        {designDescription} 
+                                        {designDescription !== 'designDescription' && designDescription}
                                     </span>
                                     <Link 
                                         href='https://www.figma.com/file/XwEoyQ1CvGClTxtUzq3PmI/Fluid-music?node-id=907%3A2'
                                         target='_blank' rel='noreferrer'
                                         className='w-auto underline font-bold text-blue-300'
                                     >
-                                        {designLink}
+                                        {designLink !== 'designLink' && designLink}
                                     </Link>
                                 </div>
                             </article>
                             <article className="flex flex-col flex-wrap justify-center items-center mt-8">
                                 <h1 className="text-xl font-semibold">
-                                    {t('common:licence')} 
+                                    {t('common:licence') !== 'licence' && t('common:licence')}
                                 </h1>
                                 <h3 className="">
-                                    {featuresResume}
+                                    {featuresResume !== 'featuresResume' && featuresResume}
                                 </h3>
                                 <div className="w-auto flex flex-wrap justify-center items-center">
                                     <span className='mr-2'>
-                                        {licenceDescription} 
+                                        {licenceDescription !== 'licenceDescription' && licenceDescription}
                                     </span>
                                     <Link 
                                         href='#' 
                                         className='w-auto underline font-bold text-blue-300'
                                     >
-                                        {t('common:licence')}({t('common:commingSoon')})
+                                        {t('common:licence') !== 'licence' && t('common:licence')}
+                                        ({t('common:commingSoon') !== 'commingSoon' && t('common:commingSoon')})
                                     </Link>
                                 </div>
                             </article>
                             <article className="flex flex-col flex-wrap justify-center items-center mt-8">
                                 <h3 className="">
-                                {thanks}
+                                    {thanks !== 'thanks' && thanks}
                                 </h3>
                             </article>
                         </div>

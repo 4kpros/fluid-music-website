@@ -25,23 +25,23 @@ export default function Policy() {
                     <div className="w-full min-h-screen my-8">
                         <div className="w-full flex flex-col py-10">
                             <h1 className="text-5xl font-bold">
-                                {heroText}
+                                {heroText !== 'heroText' && heroText}
                             </h1>
                             <div className="">
                                 <h3 className="text-2xl mt-8">
-                                    {collectedData}
+                                    {collectedData !== 'collectedData' && collectedData}
                                 </h3>
                                 <p className="mt-2 hidden">
                                     No content !!!
                                 </p>
                                 <h3 className="text-2xl mt-8">
-                                    {sharedData}
+                                    {sharedData !== 'sharedData' && sharedData}
                                 </h3>
                                 <p className="mt-2 hidden">
                                     No content !!!
                                 </p>
                                 <h3 className="text-2xl mt-8">
-                                    {logData}
+                                    {logData !== 'logData' && logData}
                                 </h3>
                                 <p className="mt-2 hidden">
                                     No content !!!  
