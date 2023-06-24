@@ -41,7 +41,7 @@ export default function Home() {
               <h3 className="w-auto font-semibold text-center text-xl">
                 {heroTitle !== 'heroTitle' && heroTitle}
               </h3>
-              <div className="w-1/2 flex flex-col justify-center items-center mt-6">
+              <div className="w-1/2 flex flex-col justify-center items-center mt-4">
                 <h1 className='w-auto text-center text-3xl font-semibold animate-pulse transition-all'>
                   {t('common:commingSoon')}
                 </h1>
@@ -50,7 +50,7 @@ export default function Home() {
                   >
                     <Image 
                       width={250} 
-                      height={128}
+                      height={80}
                       quality={100}
                       placeholder='blur'
                       blurDataURL={t('common:playstoreImgBlur')}
@@ -69,7 +69,7 @@ export default function Home() {
               </div>
               {
                 heroImg1.startsWith('/') && (
-                  <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-16">
+                  <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-8">
                     <div className='relative mt-2'>
                       <Image 
                         width={250} 
