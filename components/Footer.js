@@ -38,7 +38,7 @@ const Footer = () => {
                                 {home}
                             </Link>
                             <Link 
-                                href="/contribute" 
+                                href="/contributions" 
                                 className="text-neutral-400 transition-all hover:text-white hover:underline hover:opacity-80 mt-2"
                             >
                                 {contribute}
