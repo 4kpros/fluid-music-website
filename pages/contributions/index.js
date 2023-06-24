@@ -64,9 +64,9 @@ export default function Contributions() {
                                         blurDataURL={'/images/svg/github.svg'}
                                         src="/images/svg/github.svg" 
                                         alt="Github"
-                                        className='object-contain mr-2'
+                                        className='object-contain'
                                     />
-                                    <p className=''>
+                                    <p className='w-auto ml-2'>
                                         {sourceGithub !== 'sourceGithub' && sourceGithub}
                                         ({t('common:commingSoon') !== 'commingSoon' && t('common:commingSoon')})
                                     </p>
