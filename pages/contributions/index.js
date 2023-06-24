@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 import Link from 'next/link'
@@ -39,7 +39,14 @@ export default function Contributions() {
                     <div className="w-full mt-8">
                         <div className="w-full flex flex-col items-center text-center">
                             <div className='w-auto'>
-                                <Image width={100} height={100} src="/images/svg/community.svg" alt="Community"/>
+                                <Image 
+                                    width={100} 
+                                    height={100} 
+                                    quality={100}
+                                    placeholder='blur'
+                                    blurDataURL={'/images/svg/community.svg'}
+                                    src="/images/svg/community.svg" alt="Community"
+                                />
                             </div>
                             <h1 className="text-2xl font-bold">
                                 {heroText !== 'heroText' && heroText}
@@ -52,6 +59,9 @@ export default function Contributions() {
                                     <Image 
                                         width={24} 
                                         height={24}
+                                        quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/svg/github.svg'}
                                         src="/images/svg/github.svg" 
                                         alt="Github"
                                         className='object-contain mr-2'

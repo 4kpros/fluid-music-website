@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 export default function Features() {
     const { t } = useTranslation('features')
@@ -44,6 +44,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-1.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-1.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"
@@ -62,6 +64,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-2.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-2.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"
@@ -116,6 +120,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-3.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-3.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"
@@ -134,6 +140,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-4.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-4.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"
@@ -156,6 +164,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-5.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-5.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"
@@ -174,6 +184,8 @@ export default function Features() {
                                         width={250} 
                                         height={500} 
                                         quality={100}
+                                        placeholder='blur'
+                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-6.jpg'}
                                         src={'/images/screenshots/fluid-music-feature-6.jpg'}
                                         alt=''
                                         className="max-w-[250px] object-contain"

@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
   i18n: {
     // providing the locales supported by your application

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import Link from 'next/link'
 import useTranslation from 'next-translate/useTranslation'
 
@@ -15,6 +15,9 @@ const ItemTeam = ({person}) => {
                 <Image 
                     width={160}
                     height={160}
+                    quality={100}
+                    placeholder='blur'
+                    blurDataURL={person && person.image ? person.image : ''}
                     src={person && person.image ? person.image : ''} 
                     alt={person && person.name ? person.name : ''}
                     className="w-40 h-40 object-cover saturate-50 transition-all duration-200 group-hover:saturate-100" 
@@ -38,6 +41,9 @@ const ItemTeam = ({person}) => {
                             <Image 
                                 width={20} 
                                 height={20} 
+                                quality={100}
+                                placeholder='blur'
+                                blurDataURL={'/images/svg/linkedin.svg'}
                                 src="/images/svg/linkedin.svg" 
                                 alt="linkedin"
                                 className='w-5 h-5'
@@ -54,6 +60,9 @@ const ItemTeam = ({person}) => {
                             <Image 
                                 width={20} 
                                 height={20} 
+                                quality={100}
+                                placeholder='blur'
+                                blurDataURL={'/images/svg/github.svg'}
                                 src="/images/svg/github.svg" 
                                 alt="github"
                                 className='w-5 h-5'
@@ -70,6 +79,9 @@ const ItemTeam = ({person}) => {
                             <Image 
                                 width={20} 
                                 height={20} 
+                                quality={100}
+                                placeholder='blur'
+                                blurDataURL={'/images/svg/globe.svg'}
                                 src="/images/svg/globe.svg" 
                                 alt="globe"
                                 className='w-5 h-5'
