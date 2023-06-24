@@ -46,7 +46,8 @@ export default function Home() {
                   {t('common:commingSoon')}
                 </h1>
                 <Link 
-                  href="#" 
+                  href="#"
+                  className='mt-4'
                   >
                     <Image 
                       width={250} 
