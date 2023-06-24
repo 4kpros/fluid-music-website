@@ -88,7 +88,7 @@ const Footer = () => {
                             >
                                 <Image 
                                     width={250} 
-                                    height={128} 
+                                    height={80} 
                                     src={playstoreImg} 
                                     alt="Google Play Store"
                                     className='w-auto h-20 object-contain'
