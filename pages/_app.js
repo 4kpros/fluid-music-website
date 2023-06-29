@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { DefaultSeo } from 'next-seo'
+import { Analytics } from '@vercel/analytics/react'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -51,6 +52,7 @@ function MyApp({ Component, pageProps, router}) {
         <Component {...pageProps} canonical={url} key={url} />
       </AnimatePresence>
       <Footer />
+      <Analytics />
     </>
   )
 }
