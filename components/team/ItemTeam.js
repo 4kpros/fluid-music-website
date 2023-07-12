@@ -13,13 +13,12 @@ const ItemTeam = ({person}) => {
         <div className="w-auto flex flex-col m-4">
             <div className='w-fit h-fit relative group bg-white/10 transition-all duration-200 hover:scale-105 hover:bg-white/20'>
                 <Image 
-                    width={160}
-                    height={160}
-                    quality={100}
-                    placeholder='blur'
-                    blurDataURL={person && person.image ? person.image : ''}
                     src={person && person.image ? person.image : ''} 
                     alt={person && person.name ? person.name : ''}
+                    width={160}
+                    height={160}
+                    quality={75}
+                    priority
                     className="w-40 h-40 object-cover saturate-50 transition-all duration-200 group-hover:saturate-100" 
                 />
             </div>
