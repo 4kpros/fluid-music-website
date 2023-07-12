@@ -41,13 +41,12 @@ export default function Features() {
                             <div className='w-full flex flex-col items-center lg:justify-end space-x-0 space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0'>
                                 <div className='relative w-fit'>
                                     <Image 
+                                        src={`/images/screenshots/fluid-music-feature-1.jpg`}
+                                        alt=''
                                         width={250}
                                         height={500}
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-1.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-1.jpg'}
-                                        alt=''
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -61,13 +60,12 @@ export default function Features() {
                                 </div>
                                 <div className='relative w-fit'>
                                     <Image 
-                                        width={250} 
-                                        height={500} 
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-2.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-2.jpg'}
+                                        src={`/images/screenshots/fluid-music-feature-2.jpg`}
                                         alt=''
+                                        width={250}
+                                        height={500}
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -117,13 +115,12 @@ export default function Features() {
                             <div className='w-full flex flex-col items-center lg:justify-start space-x-0 space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0'>
                                 <div className='relative w-fit'>
                                     <Image 
-                                        width={250} 
-                                        height={500} 
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-3.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-3.jpg'}
-                                        alt=''
+                                        src={`/images/screenshots/fluid-music-feature-3.jpg`}
+                                        alt='' 
+                                        width={250}
+                                        height={500}
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -137,13 +134,12 @@ export default function Features() {
                                 </div>
                                 <div className='relative w-fit'>
                                     <Image 
-                                        width={250} 
-                                        height={500} 
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-4.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-4.jpg'}
+                                        src={`/images/screenshots/fluid-music-feature-4.jpg`}
                                         alt=''
+                                        width={250}
+                                        height={500}
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -161,13 +157,12 @@ export default function Features() {
                             <div className='w-full flex flex-col items-center lg:justify-end space-x-0 space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0'>
                                 <div className='relative w-fit'>
                                     <Image 
-                                        width={250} 
-                                        height={500} 
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-5.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-5.jpg'}
+                                        src={`/images/screenshots/fluid-music-feature-5.jpg`}
                                         alt=''
+                                        width={250}
+                                        height={500}
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -181,13 +176,12 @@ export default function Features() {
                                 </div>
                                 <div className='relative w-fit'>
                                     <Image 
-                                        width={250} 
-                                        height={500} 
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/screenshots/blur/fluid-music-feature-6.jpg'}
-                                        src={'/images/screenshots/fluid-music-feature-6.jpg'}
+                                        src={`/images/screenshots/fluid-music-feature-6.jpg`}
                                         alt=''
+                                        width={250}
+                                        height={500}
+                                        quality={75}
+                                        priority
                                         className="w-auto max-h-[500px] object-contain"
                                     />
                                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>

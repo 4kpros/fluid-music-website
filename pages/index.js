@@ -1,4 +1,4 @@
-import Image from 'next/legacy/image'
+import Image from 'next/image'
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
 import useTranslation from 'next-translate/useTranslation'
@@ -50,13 +50,12 @@ export default function Home() {
                   className='mt-4'
                   >
                     <Image 
+                      src={t('common:playstoreImg')}
+                      alt=''
                       width={250} 
                       height={80}
-                      quality={100}
-                      placeholder='blur'
-                      blurDataURL={t('common:playstoreImgBlur')}
-                      src={t('common:playstoreImg')} 
-                      alt=''
+                      quality={70}
+                      priority
                       className='w-auto h-20 object-contain'
                     />
                 </Link>
@@ -73,13 +72,12 @@ export default function Home() {
                   <div className="w-full flex flex-col md:flex-row flex-wrap items-center justify-center md:space-x-4 mt-8">
                     <div className='relative mt-2'>
                       <Image 
-                        width={250} 
-                        height={500} 
-                        quality={100}
-                        placeholder='blur'
-                        blurDataURL={heroImg1Blur}
-                        src={heroImg1} 
+                        src={heroImg1}
                         alt=''
+                        width={250}
+                        height={500}
+                        quality={75}
+                        priority
                         className="w-auto max-h-[500px] object-contain"
                     />
                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -93,13 +91,12 @@ export default function Home() {
                     </div>
                     <div className='relative mt-2'>
                       <Image 
-                        width={250} 
-                        height={500} 
-                        quality={100}
-                        placeholder='blur'
-                        blurDataURL={heroImg2Blur}
-                        src={heroImg2} 
+                        src={heroImg2}
                         alt=''
+                        width={250}
+                        height={500}
+                        quality={75}
+                        priority
                         className="w-auto max-h-[500px] object-contain"
                     />
                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -113,13 +110,12 @@ export default function Home() {
                     </div>
                     <div className='relative mt-2'>
                       <Image 
-                        width={250} 
-                        height={500} 
-                        quality={100}
-                        placeholder='blur'
-                        blurDataURL={heroImg3Blur}
-                        src={heroImg3} 
-                        alt=''
+                        src={heroImg3}
+                        alt='' 
+                        width={250}
+                        height={500}
+                        quality={75}
+                        priority
                         className="w-auto max-h-[500px] object-contain"
                     />
                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>
@@ -133,13 +129,12 @@ export default function Home() {
                     </div>
                     <div className='relative mt-2'>
                       <Image 
-                        width={250} 
-                        height={500} 
-                        quality={100}
-                        placeholder='blur'
-                        blurDataURL={heroImg4Blur}
-                        src={heroImg4} 
+                        src={heroImg4}
                         alt=''
+                        width={250}
+                        height={500}
+                        quality={75}
+                        priority
                         className="w-auto max-h-[500px] object-contain"
                     />
                     <div className='w-full h-full max-h-[500px] flex justify-center items-center absolute top-0 left-0 -z-10 bg-white/10'>

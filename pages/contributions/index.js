@@ -40,12 +40,12 @@ export default function Contributions() {
                         <div className="w-full flex flex-col items-center text-center">
                             <div className='w-auto'>
                                 <Image 
-                                    width={100} 
-                                    height={100} 
-                                    quality={100}
-                                    placeholder='blur'
-                                    blurDataURL={'/images/svg/community.svg'}
-                                    src="/images/svg/community.svg" alt="Community"
+                                    src={`/images/svg/community.svg`}
+                                    alt="Community"
+                                    width={100}
+                                    height={100}
+                                    quality={75}
+                                    priority
                                 />
                             </div>
                             <h1 className="text-2xl font-bold">
@@ -57,13 +57,12 @@ export default function Contributions() {
                                     className='w-auto px-6 py-2.5 flex flex-wrap justify-center items-center rounded-lg bg-gray-500 shadow-lg'
                                 >
                                     <Image 
-                                        width={24} 
-                                        height={24}
-                                        quality={100}
-                                        placeholder='blur'
-                                        blurDataURL={'/images/svg/github.svg'}
                                         src="/images/svg/github.svg" 
                                         alt="Github"
+                                        width={24}
+                                        height={24}
+                                        quality={75}
+                                        priority
                                         className='object-contain'
                                     />
                                     <p className='w-auto ml-2'>
