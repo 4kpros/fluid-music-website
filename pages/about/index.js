@@ -53,7 +53,7 @@ export default function About() {
                             <div className='w-auto relative flex justify-center mt-2 border-2 border-white/25'>
                                 <video
                                     id="demo1"
-                                    autoplay
+                                    autoPlay
                                     muted
                                     controls
                                     width="820"
@@ -70,7 +70,7 @@ export default function About() {
                                     <div className='w-auto relative flex justify-center mt-8 border-2 border-white'>
                                         <video
                                             id="demo2"
-                                            autoplay
+                                            autoPlay
                                             muted
                                             controls
                                             width="820"
