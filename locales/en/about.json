@@ -5,16 +5,6 @@
     "heroDesc": "Some GIF demos of the application. Please note that these renderings do not exactly represent the current state of the product",
     "teamTitle": "Team",
 
-    "demo1": "/images/screenshots/gif/fluid-music-demo-1.gif",
-    "demo1Blur": "/images/screenshots/gif/blur/fluid-music-demo-1.jpg",
-    "demo2": "/images/screenshots/gif/fluid-music-demo-2.gif",
-    "demo2Blur": "/images/screenshots/gif/blur/fluid-music-demo-2.jpg",
-    "demo3": "/images/screenshots/gif/fluid-music-demo-3.gif",
-    "demo3Blur": "/images/screenshots/gif/blur/fluid-music-demo-3.jpg",
-    "demo4": "/images/screenshots/gif/fluid-music-demo-4.gif",
-    "demo4Blur": "/images/screenshots/gif/blur/fluid-music-demo-4.jpg",
-    "demo5": "/images/screenshots/gif/fluid-music-demo-5.gif",
-    "demo5Blur": "/images/screenshots/gif/blur/fluid-music-demo-5.jpg",
-    "demo6": "/images/screenshots/gif/fluid-music-demo-6.gif",
-    "demo6Blur": "/images/screenshots/gif/blur/fluid-music-demo-6.jpg"
+    "demo1": "/videos/demo1.mp4",
+    "demo2": "/videos/demo2.mp4"
 }
