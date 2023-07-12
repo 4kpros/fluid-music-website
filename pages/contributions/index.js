@@ -29,9 +29,9 @@ export default function Contributions() {
 
     return (
         <motion.div
-            initial={{ y: -25, opacity: 0 }}
-            animate={{ y: 0, opacity: 1, duration: 0.1, }}
-            exit={{ y: 10, opacity: 0, duration: 0 }}
+            initial={{ y: -10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 5, opacity: 0 }}
         >
             <NextSeo title={pageTile === 'pageTile' ? '...' : pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <div className="w-full min-h-[80vh] text-white">
