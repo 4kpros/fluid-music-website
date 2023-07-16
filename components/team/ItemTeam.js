@@ -11,7 +11,7 @@ const ItemTeam = ({person}) => {
 
     return (
         <div className="w-auto flex flex-col m-4">
-            <div className='w-fit h-fit relative group bg-white/10 transition-all duration-200 hover:scale-105 hover:bg-white/20'>
+            <div className='w-fit h-fit relative group bg-white/10 transition-all duration-200 hover:scale-105 hover:bg-white/20 hidden'>
                 <Image 
                     src={person && person.image ? person.image : ''} 
                     alt={person && person.name ? person.name : ''}

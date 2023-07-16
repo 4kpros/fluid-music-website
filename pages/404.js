@@ -15,9 +15,27 @@ export default function Custom404() {
 
     return (
         <motion.div
-            initial={{ y: -10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: 5, opacity: 0 }}
+        initial={{
+          y: -10,
+          opacity: 0,
+          transition: {
+            duration: 0,
+          }
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+          transition: {
+            duration: 0.15,
+          }
+        }}
+        exit={{
+          y: 5,
+          opacity: 0,
+          transition: {
+            duration: 0,
+          }
+        }}
         >
             <NextSeo title={pageTile === 'pageTile' ? '...' : pageTile} description={pageDescription} openGraph={{ pageTile, pageDescription }} />
             <div className="w-full min-h-[80vh] text-white flex items-center">
