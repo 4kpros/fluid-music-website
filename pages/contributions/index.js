@@ -52,7 +52,7 @@ export default function Contributions() {
                             </h1>
                             <div className='w-auto mt-8'>
                                 <Link
-                                    href='#'
+                                    href='https://github.com/4kpros/FluidMusic'
                                     className='w-auto px-6 py-2.5 flex flex-wrap justify-center items-center rounded-lg bg-gray-500 shadow-lg'
                                 >
                                     <Image
