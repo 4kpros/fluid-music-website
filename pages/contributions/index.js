@@ -65,7 +65,6 @@ export default function Contributions() {
                                     />
                                     <p className='w-auto ml-2'>
                                         {sourceGithub !== 'sourceGithub' && sourceGithub}
-                                        ({t('common:commingSoon') !== 'commingSoon' && t('common:commingSoon')})
                                     </p>
                                 </Link>
                             </div>
